@@ -154,7 +154,7 @@ $=7<8~\checkmark$
 $\therefore P(3)$ is true and $3\in S$ so $S$ is not empty.
 
 INDUCTION STEP: 
-Induction Hypothesis: Assume $P(k)$ is true and that the statement holds for $n=k$, and $k \ge 1$
+Induction Hypothesis: Assume $P(k)$ is true and that the statement holds for $n=k$, and $k \ge 3$
 $P(k) \Rightarrow P(k+1)$ , $\forall k \in S$ 
 *(To show that whatever statement is true for any positive integer $m$, show it is also true for the next integer $m+1$)*
 $$\begin{align}
