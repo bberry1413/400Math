@@ -210,7 +210,7 @@ P(k+1)&=(k+1)^{2}\\
 P(k+1)&=k^{2} +2k+1 \ge (2k+3)+2k+1\\
 \end{align}$$
 
-Given that $k^{2} \ge 2k+3$ it can be said that  $(k+1)^{2}=k^{2}+2k +1 \ge (2k+3)$
+Given that $k^{2} \ge 2k+3$ it can be said that  $(k+1)^{2}=k^{2}+2k +1 \ge (2k+3)+2k+1$
 
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
 
