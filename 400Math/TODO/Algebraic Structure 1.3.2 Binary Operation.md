@@ -1,0 +1,2 @@
+#### 1.3.2 To be precise we would have to say what is meant by the operations of addition and multiplication. Let S be a set and let S × S be the set of all ordered pairs (s1, s2) for s1, s2 ∈ S. A binary operation on S is a function B : S × S → S. Thus the operation takes the pair (s1, s2) and outputs the element B(s1, s2). For example, addition is a binary operation. We could write (s1, s2) → A(s1, s2) rather than the more familiar (s1, s2) → s1 + s2
+
