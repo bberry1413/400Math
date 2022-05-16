@@ -1,3 +1,5 @@
+### Notes
+
 Big Ideas
 _x started in one set, shown in another set = #subsets $A\subset B$_ 
 _must show subsets both ways to show #set_equality: $A\subset B$ and $B \subset A$_
