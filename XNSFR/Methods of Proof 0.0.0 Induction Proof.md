@@ -106,6 +106,7 @@ $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$.
 
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 
+[[Methods of Proof A.8.1 Proof by Induction]]
 ### Example 3:
 Show that $$1+3+5+...+(2n-1)=n^2$$
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
@@ -181,3 +182,7 @@ $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 
 
 
+
+### Example 5: 
+
+#induction #proof #algebra_proof #inequalities 
