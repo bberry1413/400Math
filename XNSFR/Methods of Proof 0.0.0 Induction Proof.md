@@ -207,7 +207,7 @@ P(k+1)&=(k+1)^{2} \ge 2(k+1)+3\\
 With some algebra
 $$\begin{align}
 P(k+1)&=(k+1)^{2}\\
-P(k+1)&=k^{2} +2k+1 \ge 2k+3\\
+P(k+1)&=k^{2} +2k+1 \ge (2k+3)+2k+1\\
 
 \end{align}$$
 
