@@ -7,8 +7,12 @@
         "id": "4ad958b74002aad1",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "MilesMath/2 Methods of Proof/Methods of Proof 0.0.0 Induction Proof.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "MilesMath/2 Methods of Proof/Methods of Proof 0.0.0 Induction Proof.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,5 +88,7 @@
     "collapsed": true
   },
   "active": "4ad958b74002aad1",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "MilesMath/2 Methods of Proof/Methods of Proof 0.0.0 Induction Proof.md"
+  ]
 }

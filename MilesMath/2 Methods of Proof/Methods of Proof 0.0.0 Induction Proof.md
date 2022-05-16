@@ -97,6 +97,7 @@ Since $1+2+3+...+(k-1)+k=\frac{k(k+1)}{2}$, with some algebra
 $$\begin{align}
 P(k+1)&=\frac{k(k+1)}{2}+(k+1)\stackrel{?}{=}\frac{(k+1)((k+1)+1)}{2} \\
 &=\frac{k(k+1)}{2}+\frac{2(k+1)}{2}=\frac{(k+1)((k+1)+1)}{2} \\
+&=\frac{k(k+1)+2k+2}{2}=\frac{(k+1)((k+1)+1)}{2} \\
 \end{align}$$
 $$$$
 Since both sides of the equation are equal it follows that
