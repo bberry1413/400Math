@@ -174,7 +174,7 @@ $$\begin{align}
 2\cdot 2k+2&>2(k+1)+1\\
 \end{align}$$ 
 and given $$P(k+1 )=2(k+1)+1<2^{k+1}$$
- it is shown that $$2^k$$
+ it is shown that $$2^{k+1}>2(k+1)+1$$
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
 
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
