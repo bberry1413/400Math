@@ -161,9 +161,12 @@ $$\begin{align}
 P(k)&=2k+1<2^k\\
 P(k+1 )&=2(k+1)+1<2^{k+1}\\
 \end{align}$$
-Utilizing the induction hypothesis and adding 2 to both sides
-$$P(k)=2k+1+2<2^{k}+2$$  
-
+It follows that $2^{k+1}=2^{k} \cdot 2$ and given that $2^{k}>2k+1$ it can be said that: $$2^{k}\cdot 2 > (2k+1)\cdot 2$$With some algebra
+$$\begin{align}
+2^{k}\cdot 2 &> (2k+1)\cdot 2 \\
+&=4k+2 \\
+&= 2
+\end{align}$$
 
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
 
