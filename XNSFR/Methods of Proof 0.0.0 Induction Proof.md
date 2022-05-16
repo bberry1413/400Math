@@ -184,5 +184,40 @@ $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 
 
 ### Example 5: 
+Prove that $P(n): n^{2}\ge 2n+3, n\ge 3$
+Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
+BASIS STEP:
+Let $n\ge 3$ *(To show that $P(n)$ is true)* 
+$$\begin{align}
+3^{2}&\ge 2(3)+3 \\
+9&\ge 9\\
+\end{align}$$
+
+$\therefore P(3)$ is true and $3\in S$ so $S$ is not empty.
+
+INDUCTION STEP: 
+Induction Hypothesis: Assume $P(k)$ is true and that the statement holds for $n=k$, and $k \ge 3$
+$P(k) \Rightarrow P(k+1)$ , $\forall k \in S$ 
+*(To show that whatever statement is true for any positive integer $m$, show it is also true for the next integer $m+1$)*
+$$\begin{align}
+P(k)&=k^{2} \ge 2k+3\\
+P(k+1)&=(k+1)^{2} \ge 2(k+1)+3\\
+\end{align}$$
+
+With some algebra
+$$\begin{align}
+P(k+1)&=(k+1)^{2}\\
+P(k+1)&=k^{2} +2k+1 \ge 2k+3\\
+
+\end{align}$$
+
+So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
+
+$\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
+
+
+---
+
+
 
 #induction #proof #algebra_proof #inequalities 
