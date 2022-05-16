@@ -165,9 +165,16 @@ It follows that $2^{k+1}=2^{k} \cdot 2$ and given that $2^{k}>2k+1$ it can be sa
 $$\begin{align}
 2^{k}\cdot 2 &> (2k+1)\cdot 2 \\
 &=4k+2 \\
-&= 2
+&= 2\cdot 2k +2 \\
 \end{align}$$
-
+Since $2(k+1)+1=2k+3$, surely it can be said that 
+$$\begin{align}
+2\cdot 2k+2&>2k+3, \forall k\ge 3 \\
+2\cdot 2k+2&>2k+2+1\\
+2\cdot 2k+2&>2(k+1)+1\\
+\end{align}$$ 
+and given $$P(k+1 )=2(k+1)+1<2^{k+1}$$
+ it is shown that $$2^k$$
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
 
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.

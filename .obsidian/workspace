@@ -11,9 +11,23 @@
           "state": {
             "file": "XNSFR/Methods of Proof 0.0.0 Induction Proof.md",
             "mode": "source",
-            "source": false
+            "source": true
           }
-        }
+        },
+        "group": "ff1924b7038bf7bc"
+      },
+      {
+        "id": "706b213d26ba2ba7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "XNSFR/Methods of Proof 0.0.0 Induction Proof.md",
+            "mode": "preview",
+            "source": true
+          }
+        },
+        "group": "ff1924b7038bf7bc"
       }
     ],
     "direction": "vertical"
@@ -53,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "43be17ce8498903f",
