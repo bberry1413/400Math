@@ -226,8 +226,16 @@ $$\begin{align}
 (k+1)^{2} &\ge 4k+4 \\
 (k+1)^{2} &\ge 2\cdot 2k+4 \\
 \end{align}$$
-If $(k+1)^{2} \ge 4k+4$ 
+Given that $2(k+1)+3=2k+5$ and $(k+1)^{2} \ge 4k+4$, surely it can be said that
 
+$$\begin{align}
+2\cdot 2k+4 &> 2k +5,~~~\forall k\ge 3\\
+(k+1)^{2}&> 2k+5 \\
+(k+1)^{2}&> 2k+2+3 \\
+(k+1)^{2}&> 2(k+1)+3 \\
+\end{align}$$
+It is shown that 
+P(k+1)=(k+1)^{2} \ge 2(k+1)+3\\
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
 
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
