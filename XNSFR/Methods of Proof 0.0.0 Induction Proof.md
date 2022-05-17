@@ -226,7 +226,7 @@ $$\begin{align}
 (k+1)^{2} &\ge 4k+4 \\
 (k+1)^{2} &\ge 2\cdot 2k+4 \\
 \end{align}$$
-If (k+1)^{2} \ge 4k+4 \\
+If $(k+1)^{2} \ge 4k+4$ 
 
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
 
