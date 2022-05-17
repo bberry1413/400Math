@@ -157,6 +157,7 @@ $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$.
 
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 ### Example 4: 
+
 Show that for all integers, $n\ge 3$, $2n+1 < 2^n$  #inequalities 
 
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
