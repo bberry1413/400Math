@@ -2,10 +2,10 @@
   "commitMessage": "vault backup: {{date}}",
   "autoCommitMessage": "vault backup: {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 10,
+  "autoSaveInterval": 60,
   "autoPullInterval": 0,
   "autoPullOnBoot": true,
-  "disablePush": false,
+  "disablePush": true,
   "pullBeforePush": false,
   "disablePopups": false,
   "listChangedFilesInMessageBody": false,
@@ -16,6 +16,6 @@
   "customMessageOnAutoBackup": false,
   "autoBackupAfterFileChange": false,
   "treeStructure": false,
-  "refreshSourceControl": true,
+  "refreshSourceControl": false,
   "basePath": "/home/bberry/Desktop/400Math"
 }
