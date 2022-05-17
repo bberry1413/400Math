@@ -14,6 +14,19 @@ If you are hoping to prove that an equation is true but you haven't yet done so,
 
 **Format 5 - iff:** Start by writing "We must show that" and give the equation you want to prove true. In successive steps, indicate that this equation is true, $\iff$ various other equations are true. BE SURE that both directions of the iff claim are correct. Because each subsequent equation is true iff the previous equation is true, then you will have shown the original equation is true. 
 
+#### Insights:
+With an #equality statement, they will often involve #algebra_proof 
+- Combining and splitting like terms
+- Factoring
+- Fractions
+- Radicals
+- Exponential Rules
+- Trig Identities
+- 
+
+With #inequalities statements, they will often involve creating a logical ordered statement like: "this is less than that, so this other thing must be is less than that too"
+
+Triangle Inequality
 ### Proof Outline:
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
 BASIS STEP:
@@ -30,8 +43,7 @@ So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$.
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 
 ### EXAMPLE 1:
-Show that $2^{3n+1} +5$ is always a multiple of 7.
-
+Show that $2^{3n+1} +5$ is always a multiple of 7. #algebra_proof 
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
 BASIS STEP:
 Let $n=1$ (To show that $P(n)$ is true) 
@@ -73,7 +85,8 @@ So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$.
 
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 ### EXAMPLE 2: 
-Show that $$1+2+3+...+(n-1)+n=\frac{n(n+1)}{2}$$Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
+Show that $$1+2+3+...+(n-1)+n=\frac{n(n+1)}{2}$$ #algebra_proof 
+Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
 
 BASIS STEP:
 Let $n=1$ (To show that $P(n)$ is true) 
@@ -108,7 +121,7 @@ $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 
 [[Methods of Proof A.8.1 Proof by Induction]]
 ### Example 3:
-Show that $$1+3+5+...+(2n-1)=n^2$$
+Show that $$1+3+5+...+(2n-1)=n^2$$ #algebra_proof 
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
 BASIS STEP:
 Let $n=1$ *(To show that $P(n)$ is true)* 
@@ -144,7 +157,7 @@ $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$.
 
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 ### Example 4: 
-Show that for all integers, $n\ge 3$, $2n+1 < 2^n$ .
+Show that for all integers, $n\ge 3$, $2n+1 < 2^n$  #inequalities 
 
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
 BASIS STEP:
@@ -184,7 +197,7 @@ $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 
 
 ### Example 5: 
-Prove that $P(n): n^{2}\ge 2n+3, n\ge 3$
+Prove that $P(n): n^{2}\ge 2n+3, n\ge 3$ #inequalities 
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
 BASIS STEP:
 Let $n\ge 3$ *(To show that $P(n)$ is true)* 
@@ -204,14 +217,16 @@ P(k)&=k^{2} \ge 2k+3\\
 P(k+1)&=(k+1)^{2} \ge 2(k+1)+3\\
 \end{align}$$
 
-Given that $k^{2} \ge 2k+3$ it can be said that  $(k+1)^{2}=k^{2}+2k +1 \ge (2k+3)+2k+1$
+Given that  $k^{2} \ge 2k+3$ and $(k+1)^2 = k^2+2k+1$,  it can be said that  $(k+1)^{2}=k^2+2k+1 \ge (2k+3)+2k+1$
 
-With some algebra
+Then with some algebra
 $$\begin{align}
 (k+1)^{2} &\ge (2k+3)+2k+1\\
-k^{2} +2k+1 &\ge (2k+3)+2k+1\\
+(k+1)^{2} &\ge (2k+3)+2k+1\\
+(k+1)^{2} &\ge 4k+4 \\
+(k+1)^{2} &\ge 2\cdot 2k+4 \\
 \end{align}$$
-
+If (k+1)^{2} \ge 4k+4 \\
 
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
 
@@ -222,4 +237,4 @@ $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 
 
 
-#induction #proof #algebra_proof #inequalities 
+#induction #proof 
