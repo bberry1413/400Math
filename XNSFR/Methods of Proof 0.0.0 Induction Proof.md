@@ -48,7 +48,7 @@ So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$.
 
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 
-### EXAMPLE 1:
+### Example 1:
 Show that $2^{3n+1} +5$ is always a multiple of 7. #algebra_proof 
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
 BASIS STEP:
@@ -90,7 +90,7 @@ $$\begin{align}
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
 
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
-### EXAMPLE 2: 
+### Example 2: 
 Show that $$1+2+3+...+(n-1)+n=\frac{n(n+1)}{2}$$ #algebra_proof 
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
 
@@ -244,7 +244,7 @@ BASIS STEP:
 Let $n\ge 3$ *(To show that $P(n)$ is true)* 
 $$\begin{align}
 3^{2}&\ge 2(3)+3 \\
-9&\ge 9\\
+9&\ge 9~~~\checkmark\\
 \end{align}$$
 
 $\therefore P(3)$ is true and $3\in S$ so $S$ is not empty.
