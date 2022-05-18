@@ -1,0 +1,1 @@
+Prove by induction that for every $n=1,2,3,...$ that $$1+r+r^2+...+r^n = \frac{1-r^{n+1}}{1-r}$$ for any real number $r \ne 1$.

@@ -1,0 +1,1 @@
+Prove by induction that for every $n=1,2,3,...$ that $$\frac{d^{n}}{dx^{n}}e^{2x}=e^{2x+n\log 2}.$$

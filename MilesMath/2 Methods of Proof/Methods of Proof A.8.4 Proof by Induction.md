@@ -1,0 +1,1 @@
+Prove by induction that for every $n=1,2,3,...$ $$(1+x)^n \ge 1 + nx$$ for any $x>0$.

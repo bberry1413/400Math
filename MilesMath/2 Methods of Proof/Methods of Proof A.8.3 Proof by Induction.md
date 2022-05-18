@@ -1,0 +1,1 @@
+Prove by induction for every $n=1,2,3,...$ that the number $$7^n-4^n$$ is divisible by 3. 

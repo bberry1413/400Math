@@ -1,0 +1,3 @@
+Show that the following two principles are equivalent (i.e., assuming the validity of one of them, prove the other). 
+	**(Principle of Induction)** Let $S \subset \mathbb{N}$ such that $1 \in S$ and for all integers $n$ if $n \in S$, then so is $n+1$. Then $S = \mathbb{N}$.
+	**(Well Ordering of $\mathbb{N}$)** If $S \subset \mathbb{N}$ and $S \ne \emptyset$ , then $S$ has a first element (i.e., a minimal element) well ordering of $\mathbb{N}$

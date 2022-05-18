@@ -1,0 +1,1 @@
+Prove by induction that for every $n=1,2,3,...$ that $$1^3 + 2^3 + 3^3 + ...+n^3 = (1+2+3+...+n)^2$$

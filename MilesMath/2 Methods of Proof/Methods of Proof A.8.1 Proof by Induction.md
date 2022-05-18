@@ -45,26 +45,3 @@ So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$.
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 
 ---
-Compute for $n=1,2,3,4$, and $5$ the value of $$1+3+5+...+(2n-1).$$
-This should be enough values to suggest a correct formula. Verify it by induction.
-
----
-Prove by induction for every $n=1,2,3,...$ that the number $$7^n-4^n$$ is divisible by 3. 
-
-
----
-Prove by induction that for every $n=1,2,3,...$ $$(1+x)^n \ge 1 + nx$$ for any $x>0$.
-
----
-Prove by induction that for every $n=1,2,3,...$ that $$1+r+r^2+...+r^n = \frac{1-r^{n+1}}{1-r}$$ for any real number $r \ne 1$.
-
----
-Prove by induction that for every $n=1,2,3,...$ that $$1^3 + 2^3 + 3^3 + ...+n^3 = (1+2+3+...+n)^2$$
-
----
-Prove by induction that for every $n=1,2,3,...$ that $$\frac{d^{n}}{dx^{n}}e^{2x}=e^{2x+n\log 2}.$$
-
----
-Show that the following two principles are equivalent (i.e., assuming the validity of one of them, prove the other). 
-	**(Principle of Induction)** Let $S \subset \mathbb{N}$ such that $1 \in S$ and for all integers $n$ if $n \in S$, then so is $n+1$. Then $S = \mathbb{N}$.
-	**(Well Ordering of $\mathbb{N}$)** If $S \subset \mathbb{N}$ and $S \ne \emptyset$ , then $S$ has a first element (i.e., a minimal element) well ordering of $\mathbb{N}$
