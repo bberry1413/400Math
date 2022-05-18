@@ -4,7 +4,7 @@
 If you are hoping to prove that an equation is true but you haven't yet done so, either preface it with words "We must show that" or put a question mark above the equal sign.
 
 #### Methods of Proof by Induction:
-**Format 1 - the inductive step**: Start with the left hand side of the equation (LHS) to be proved and transform it using definitions, algebra, and (during the inductive step) the inductive hypothesis until you  obtain the right-hand side of the equation (RHS).
+**Format 1 - the inductive step**: Start with the left hand side of the equation (LHS) to be proved and transform it using definitions, algebra, and (during the inductive step) the inductive hypothesis until you obtain the right-hand side of the equation (RHS).
 
 **Format 2 - the basis step:** Transform the LHS and the RHS of the equation to be proved independently, one after the other, until both sides are shown to equal the same expression. 
 
@@ -15,7 +15,9 @@ If you are hoping to prove that an equation is true but you haven't yet done so,
 **Format 5 - iff:** Start by writing "We must show that" and give the equation you want to prove true. In successive steps, indicate that this equation is true, $\iff$ various other equations are true. BE SURE that both directions of the iff claim are correct. Because each subsequent equation is true iff the previous equation is true, then you will have shown the original equation is true. 
 
 #### Insights:
-**USE THE INDUCTIVE H
+1. **USE THE INDUCTIVE HYPOTHESIS**
+2. **REARRANGE TO MAKE IT LOOK LIKE THE INDUCTION HYPOTHESIS**
+3. **PROVEN FOR THE NEXT TERM IN SEQUENCE, PROVEN FOR ENTIRE SEQUENCE**
 
 With an #equality statement, they will often involve #algebra_proof 
 - Combining and splitting like terms
@@ -184,7 +186,7 @@ $$\begin{align}
 &\ge (2k+1) \cdot 3=3\cdot 2k +3 \hspace{1cm} \textit{distributive property}\\
 &\ge 3 \cdot 2k + 3
 \end{align}$$
-Given that $3^{k}\ge 2k+1$ and it is shown that $3^{k+1} \ge 3 \cdot 2k+3$ surely it can be said that 
+Given that $3^{k}\ge 2k+1$ and it is shown that $3^{k+1} \ge 3 \cdot 2k+3$ surely it can be said that because $3 \cdot 2k +3 \ge 2k +3$,
 $$\begin{align}
 3^{k+1} &\ge 2k+3\\
 3^{k+1} &\ge 2k+2+1\\
