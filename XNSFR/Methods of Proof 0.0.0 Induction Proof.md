@@ -15,6 +15,8 @@ If you are hoping to prove that an equation is true but you haven't yet done so,
 **Format 5 - iff:** Start by writing "We must show that" and give the equation you want to prove true. In successive steps, indicate that this equation is true, $\iff$ various other equations are true. BE SURE that both directions of the iff claim are correct. Because each subsequent equation is true iff the previous equation is true, then you will have shown the original equation is true. 
 
 #### Insights:
+**USE THE INDUCTIVE H
+
 With an #equality statement, they will often involve #algebra_proof 
 - Combining and splitting like terms
 - Factoring
@@ -22,11 +24,13 @@ With an #equality statement, they will often involve #algebra_proof
 - Radicals
 - Exponential Rules
 - Trig Identities
-- 
 
 With #inequalities statements, they will often involve creating a logical ordered statement like: "this is less than that, so this other thing must be is less than that too"
 
 Triangle Inequality
+$|x+y| \ge |x|+|y|$
+
+
 ### Proof Outline:
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
 BASIS STEP:
@@ -156,7 +160,41 @@ Since both sides of the equation are equal, it follows that
 $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
 
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
-### Example 4: 
+### Example 4:
+Prove $3^n \ge 2n+1~~~ \forall n \in \mathbb{Z}^+$
+Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
+BASIS STEP:
+Let $n=1$ *(To show that $P(n)$ is true)* 
+$P(n)=3^{n}\ge 2n+1$
+$P(1)=3^{1} \ge 2(1)+1$
+$=3\ge 3~\checkmark$
+$\therefore P(1)$ is true and $1\in S$ so $S$ is not empty.
+
+INDUCTION STEP: 
+Induction Hypothesis: Assume $P(k)$ is true and that the statement holds for $n=k$, and $k \ge 1$
+$P(k) \Rightarrow P(k+1)$ , $\forall k \in S$ 
+*(To show that whatever statement is true for any positive integer $m$, show it is also true for the next integer $m+1$)*
+$$\begin{align}
+P(k)&=3^{k}\ge 2k+1\\
+P(k)&=3^{k+1}\ge 2(k+1)+1\\
+\end{align}$$
+It follows that $3^{k+1}=3^{k} \cdot 3$ and given that $3^{k}>2k+1$ it can be said that: 
+$$\begin{align}
+3^{k+1}&=3^{k}\cdot 3\\
+&\ge (2k+1) \cdot 3=3\cdot 2k +3 \hspace{1cm} \textit{distributive property}\\
+&\ge 3 \cdot 2k + 3
+\end{align}$$
+Given that $3^{k}\ge 2k+1$ and it is shown that $3^{k+1} \ge 3 \cdot 2k+3$ surely it can be said that 
+$$\begin{align}
+3^{k+1} &\ge 2k+3\\
+3^{k+1} &\ge 2k+2+1\\
+3^{k+1} &\ge 2(k+1)+1\\
+\end{align}$$ Then it is shown that $$3^{k+1}\ge 2(k+1)+1$$
+So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
+
+$\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
+
+### Example 5: 
 
 Show that for all integers, $n\ge 3$, $2n+1 < 2^n$  #inequalities 
 
@@ -197,7 +235,7 @@ $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 
 
 
-### Example 5: 
+### Example 6 : 
 Prove that $P(n): n^{2}\ge 2n+3, n\ge 3$ #inequalities 
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
 BASIS STEP:
