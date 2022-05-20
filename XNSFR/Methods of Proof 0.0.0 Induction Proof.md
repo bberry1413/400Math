@@ -29,13 +29,14 @@ With an #equality statement, they will often involve #algebra_proof
 
 With #inequalities statements, they will often involve creating a logical ordered statement like: "this is less than that, so this other thing must be is less than that too"
 
-Triangle Inequality
-$|x+y| \ge |x|+|y|$
+Triangle Inequality $|x+y| \ge |x|+|y|$
 
 
 ### Proof Outline:
-Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
+Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true
+
 BASIS STEP:
+
 Let $n=1$ *(To show that $P(n)$ is true)* 
 $\therefore P(1)$ is true and $1\in S$ so $S$ is not empty.
 
@@ -50,11 +51,14 @@ $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 
 ### Example 1:
 Show that $2^{3n+1} +5$ is always a multiple of 7. #algebra_proof 
+
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
+
 BASIS STEP:
 Let $n=1$ (To show that $P(n)$ is true) 
 $$2^{3(1)+1}+5=2^{4}+5=21$$
 21 is a multiple of 7. 
+
 $\therefore P(1)$ is true and $1\in S$ so $S$ is not empty.
 
 INDUCTION STEP: 
@@ -90,6 +94,9 @@ $$\begin{align}
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
 
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
+
+[[Methods of Proof A.8.3 Proof by Induction]]
+
 ### Example 2: 
 Show that $$1+2+3+...+(n-1)+n=\frac{n(n+1)}{2}$$ #algebra_proof 
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
