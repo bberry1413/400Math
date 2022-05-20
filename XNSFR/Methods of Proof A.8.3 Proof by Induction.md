@@ -26,7 +26,7 @@ P(k+1)&=7^{k+1}-4^{k+1}=3x \\
 Rewriting $P(k)$ with $\ln x$ 
 
 $$\begin{align}
-P(k)&=7^{k}-4^{k}=3x\\
+7^{k}-4^{k}=3x\\
 k\ln7 -k\ln4&=\ln(3x) \\
 k(\ln7 -\ln4)=\ln3+\ln x \\
 \end{align}$$

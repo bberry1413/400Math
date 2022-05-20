@@ -31,6 +31,7 @@ With #inequalities statements, they will often involve creating a logical ordere
 
 Triangle Inequality $|x+y| \ge |x|+|y|$
 
+"Does $P(k)$ hold $\forall k \in S$? If it does, we can use $P(k)$ to show that $P(k+1)$ holds and thus P(n) is true."
 
 ### Proof Outline:
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true
@@ -67,7 +68,7 @@ INDUCTION STEP:
 
 Induction Hypothesis: Assume $P(k)$ is true and that the statement holds for $n=k$, and $k\ge 1$
 
-$P(k) \Rightarrow P(k+1)$ , $\forall k \in S$ 
+We.Need.To.Show $P(k) \Rightarrow P(k+1)$ , $\forall k \in S$ 
 
 (To show that whatever statement is true for any positive integer $m$ it is necessarily also true for the next integer $m+1$)
 
@@ -89,6 +90,7 @@ $$\begin{align}
 2^{3k+4}+5&=56x-35\\
 2^{3k+4}+5&=7(8x-5)\\
 \end{align}$$
+*Since* $2^{3k+1} \cdot 2^3 = 2^{3k+4}$*, multiplying both sides of* $P(k)$ *by* $2^3$ *creates a statement that gives* $P(k+1)$ *as a multiple of 7.*
 
 So for $P(k+1)$
 
