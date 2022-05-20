@@ -35,14 +35,16 @@ Triangle Inequality $|x+y| \ge |x|+|y|$
 ### Proof Outline:
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true
 
-BASIS STEP:
+BASIS STEP: Let $n=1$ *(To show that $P(n)$ is true)* 
 
-Let $n=1$ *(To show that $P(n)$ is true)* 
 $\therefore P(1)$ is true and $1\in S$ so $S$ is not empty.
 
 INDUCTION STEP: 
+
 Induction Hypothesis: Assume $P(k)$ is true and that the statement holds for $n=k$, and $k \ge 1$
+
 $P(k) \Rightarrow P(k+1)$ , $\forall k \in S$ 
+
 *(To show that whatever statement is true for any positive integer $m$, show it is also true for the next integer $m+1$)*
 
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
@@ -54,24 +56,31 @@ Show that $2^{3n+1} +5$ is always a multiple of 7. #algebra_proof
 
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
 
-BASIS STEP:
-Let $n=1$ (To show that $P(n)$ is true) 
+BASIS STEP: Let $n=1$ (To show that $P(n)$ is true) 
+
 $$2^{3(1)+1}+5=2^{4}+5=21$$
 21 is a multiple of 7. 
 
 $\therefore P(1)$ is true and $1\in S$ so $S$ is not empty.
 
 INDUCTION STEP: 
+
 Induction Hypothesis: Assume $P(k)$ is true and that the statement holds for $n=k$, and $k\ge 1$
+
 $P(k) \Rightarrow P(k+1)$ , $\forall k \in S$ 
+
 *(To show that whatever statement is true for any positive integer $m$ it is necessarily also true for the next integer $m+1$)*
+
 $$\begin{align}
 P(k)&=2^{3k+1} +5 \\
 P(k+1)&=2^{3(k+1)+1}+5\\
 P(k+1)&=2^{3k+4}+5
 \end{align}$$
+
 It follows that in order for $P(k+1)$ to be true, it must be a multiple of 7, given by $7x$
+
 *side work*
+
 $$\begin{align}
 2^{3k+1} +5&\stackrel{?}{=} 7x\\
 2^3(2^{3k+1}+5)&=7x(2^{3})\\
@@ -80,7 +89,9 @@ $$\begin{align}
 2^{3k+4}+5&=56x-35\\
 2^{3k+4}+5&=7(8x-5)\\
 \end{align}$$
+
 So for $P(k+1)$
+
 $$\begin{align}
 2^{3k+4}+5&=7(8x-5)\\
 2^{3k+4}+5&=56x-35\\
@@ -99,10 +110,10 @@ $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 
 ### Example 2: 
 Show that $$1+2+3+...+(n-1)+n=\frac{n(n+1)}{2}$$ #algebra_proof 
+
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
 
-BASIS STEP:
-Let $n=1$ (To show that $P(n)$ is true) 
+BASIS STEP: Let $n=1$ (To show that $P(n)$ is true) 
 
 $P(1)=\frac{1(1+1)}{2}=\frac{2}{2}=1$
 
@@ -110,16 +121,21 @@ $\therefore P(1)$ is true and $1\in S$ so $S$ is not empty.
 
 
 INDUCTION STEP: 
+
 Induction Hypothesis: Assume $P(k)$ is true and that the statement holds for $n=k$, and $k\ge 1$
 
 $P(k) \Rightarrow P(k+1)$ , $\forall k \in S$ 
+
 *(To show that whatever statement is true for any positive integer $m$, show it is also true for the next integer $m+1$)*
+
 $$\begin{align}
 P(k)&=1+2+3+...+(k-1)+k=\frac{k(k+1)}{2}\\
 P(k+1)&=1+2+3+...+((k+1)-1)+(k+1)=\frac{(k+1)((k+1)+1)}{2} \\
 &=1+2+3+...+(k-1)+k+(k+1)=\frac{(k+1)((k+1)+1)}{2} \\
 \end{align}$$
+
 Since $1+2+3+...+(k-1)+k=\frac{k(k+1)}{2}$, with some algebra
+
 $$\begin{align}
 P(k+1)&=\frac{k(k+1)}{2}+(k+1)\stackrel{?}{=}\frac{(k+1)((k+1)+1)}{2} \\
 &=\frac{k(k+1)}{2}+\frac{2(k+1)}{2}=\frac{(k+1)((k+1)+1)}{2} \\
@@ -127,78 +143,102 @@ P(k+1)&=\frac{k(k+1)}{2}+(k+1)\stackrel{?}{=}\frac{(k+1)((k+1)+1)}{2} \\
 &=\frac{(k+1)(k+2)}{2}=\frac{(k+1)((k+1)+1)}{2} \\
 &=\frac{(k+1)((k+1)+1)}{2}=\frac{(k+1)((k+1)+1)}{2} ~~\checkmark\\
 \end{align}$$
-Since both sides of the equation are equal it follows that
-$P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
+
+Since both sides of the equation are equal it follows that $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
 
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 
 [[Methods of Proof A.8.1 Proof by Induction]]
+
 ### Example 3:
 Show that $$1+3+5+...+(2n-1)=n^2$$ #algebra_proof 
-Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
-BASIS STEP:
-Let $n=1$ *(To show that $P(n)$ is true)* 
+
+Proof: 
+
+Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
+
+BASIS STEP: Let $n=1$ *(To show that $P(n)$ is true)* 
 
 $P(1)=(2(1)-1)=(2-1)=1=1^2=1$
 
 $\therefore P(1)$ is true and $1\in S$ so $S$ is not empty.
 
 INDUCTION STEP: 
+
 Induction Hypothesis: Assume $P(k)$ is true and that the statement holds for $n=k$, and $k\ge 1$
 
 $P(k) \Rightarrow P(k+1)$ , $\forall k \in S$ 
+
 *(To show that whatever statement is true for any positive integer $m$, show it is also true for the next integer $m+1$)*
+
 $$\begin{align}
 P(k)&=1+3+5+...+(2k-1)=k^2\\
 P(k+1)&=1+3+5+...+(2(k+1)-1)\stackrel{?}{=}(k+1)^2\\
 \end{align}$$
+
 It follows that for $P(k+1)$ to be true it must be equal to $(k+1)^2$
+
 With some algebra:
+
 $$\begin{align}
 P(k+1)&=1+3+5+...+(2(k+1)-1)\stackrel{?}{=}(k+1)^2\\
 &=1+3+5+...+(2k+1)\stackrel{?}{=}(k+1)^2\\
 &=1+3+5+...+(2k-1)+(2k+1)\stackrel{?}{=}(k+1)^2
 \end{align}$$
+
 Since $P(k)=1+3+5+...+(2k-1)=k^2$, substituting gives
 
 $$\begin{align}
 P(k+1)&=1+3+5+...+(2k-1)\stackrel{?}{=}(k+1)^2\\
 P(k+1)&=k^2+(2k+1)\stackrel{?}{=}(k+1)^2\\
 P(k+1)&=k^2+2k+1=(k+1)^2\end{align}$$
-Since both sides of the equation are equal, it follows that
-$P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
+
+Since both sides of the equation are equal, it follows that $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
 
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 ### Example 4:
 Prove $3^n \ge 2n+1~~~ \forall n \in \mathbb{Z}^+$
+
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
-BASIS STEP:
-Let $n=1$ *(To show that $P(n)$ is true)* 
+
+BASIS STEP: Let $n=1$ *(To show that $P(n)$ is true)* 
+
 $P(n)=3^{n}\ge 2n+1$
+
 $P(1)=3^{1} \ge 2(1)+1$
+
 $=3\ge 3~\checkmark$
+
 $\therefore P(1)$ is true and $1\in S$ so $S$ is not empty.
 
 INDUCTION STEP: 
+
 Induction Hypothesis: Assume $P(k)$ is true and that the statement holds for $n=k$, and $k \ge 1$
+
 $P(k) \Rightarrow P(k+1)$ , $\forall k \in S$ 
+
 *(To show that whatever statement is true for any positive integer $m$, show it is also true for the next integer $m+1$)*
+
 $$\begin{align}
 P(k)&=3^{k}\ge 2k+1\\
 P(k)&=3^{k+1}\ge 2(k+1)+1\\
 \end{align}$$
+
 It follows that $3^{k+1}=3^{k} \cdot 3$ and given that $3^{k}>2k+1$ it can be said that: 
 $$\begin{align}
 3^{k+1}&=3^{k}\cdot 3\\
 &\ge (2k+1) \cdot 3=3\cdot 2k +3 \hspace{1cm} \textit{distributive property}\\
 &\ge 3 \cdot 2k + 3
 \end{align}$$
+
 Given that $3^{k}\ge 2k+1$ and it is shown that $3^{k+1} \ge 3 \cdot 2k+3$ surely it can be said that because $3 \cdot 2k +3 \ge 2k +3$,
+
 $$\begin{align}
 3^{k+1} &\ge 2k+3\\
 3^{k+1} &\ge 2k+2+1\\
 3^{k+1} &\ge 2(k+1)+1\\
-\end{align}$$ Then it is shown that $$3^{k+1}\ge 2(k+1)+1$$
+\end{align}$$ 
+Then it is shown that $$3^{k+1}\ge 2(k+1)+1$$
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
 
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
@@ -208,21 +248,30 @@ $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 Show that for all integers, $n\ge 3$, $2n+1 < 2^n$  #inequalities 
 
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
-BASIS STEP:
-Let $n=3$ *(To show that $P(n)$ is true)* 
+
+BASIS STEP: Let $n=3$ *(To show that $P(n)$ is true)* 
+
 $P(n)=2n+1<2^n$
+
 $P(3)=2(3)+1<2^{3}$
+
 $=7<8~\checkmark$
+
 $\therefore P(3)$ is true and $3\in S$ so $S$ is not empty.
 
 INDUCTION STEP: 
+
 Induction Hypothesis: Assume $P(k)$ is true and that the statement holds for $n=k$, and $k \ge 3$
+
 $P(k) \Rightarrow P(k+1)$ , $\forall k \in S$ 
+
 *(To show that whatever statement is true for any positive integer $m$, show it is also true for the next integer $m+1$)*
+
 $$\begin{align}
 P(k)&=2k+1<2^k\\
 P(k+1 )&=2(k+1)+1<2^{k+1}\\
 \end{align}$$
+
 It follows that $2^{k+1}=2^{k} \cdot 2$ and given that $2^{k}>2k+1$ it can be said that: $$2^{k}\cdot 2 > (2k+1)\cdot 2$$With some algebra
 $$\begin{align}
 2^{k}\cdot 2 &> (2k+1)\cdot 2 \\
@@ -257,9 +306,13 @@ $$\begin{align}
 $\therefore P(3)$ is true and $3\in S$ so $S$ is not empty.
 
 INDUCTION STEP: 
+
 Induction Hypothesis: Assume $P(k)$ is true and that the statement holds for $n=k$, and $k \ge 3$
+
 $P(k) \Rightarrow P(k+1)$ , $\forall k \in S$ 
+
 *(To show that whatever statement is true for any positive integer $m$, show it is also true for the next integer $m+1$)*
+
 $$\begin{align}
 P(k)&=k^{2} \ge 2k+3\\
 P(k+1)&=(k+1)^{2} \ge 2(k+1)+3\\
@@ -268,12 +321,14 @@ P(k+1)&=(k+1)^{2} \ge 2(k+1)+3\\
 Given that  $k^{2} \ge 2k+3$ and $(k+1)^2 = k^2+2k+1$,  it can be said that  $(k+1)^{2}=k^2+2k+1 \ge (2k+3)+2k+1$
 
 Then with some algebra
+
 $$\begin{align}
 (k+1)^{2} &\ge (2k+3)+2k+1\\
 (k+1)^{2} &\ge (2k+3)+2k+1\\
 (k+1)^{2} &\ge 4k+4 \\
 (k+1)^{2} &\ge 2\cdot 2k+4 \\
 \end{align}$$
+
 Given that $2(k+1)+3=2k+5$ and $(k+1)^{2} \ge 4k+4$, surely it can be said that
 
 $$\begin{align}
@@ -282,8 +337,11 @@ $$\begin{align}
 (k+1)^{2}&> 2k+2+3 \\
 (k+1)^{2}&> 2(k+1)+3 \\
 \end{align}$$
+
 It is shown that 
+
 P(k+1)=(k+1)^{2} \ge 2(k+1)+3\\
+
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
 
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
