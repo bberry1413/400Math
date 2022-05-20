@@ -196,6 +196,7 @@ P(k+1)&=k^2+2k+1=(k+1)^2\end{align}$$
 Since both sides of the equation are equal, it follows that $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
 
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
+
 ### Example 4:
 Prove $3^n \ge 2n+1~~~ \forall n \in \mathbb{Z}^+$
 
@@ -225,6 +226,7 @@ P(k)&=3^{k+1}\ge 2(k+1)+1\\
 \end{align}$$
 
 It follows that $3^{k+1}=3^{k} \cdot 3$ and given that $3^{k}>2k+1$ it can be said that: 
+
 $$\begin{align}
 3^{k+1}&=3^{k}\cdot 3\\
 &\ge (2k+1) \cdot 3=3\cdot 2k +3 \hspace{1cm} \textit{distributive property}\\
@@ -239,6 +241,7 @@ $$\begin{align}
 3^{k+1} &\ge 2(k+1)+1\\
 \end{align}$$ 
 Then it is shown that $$3^{k+1}\ge 2(k+1)+1$$
+
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
 
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
@@ -272,32 +275,36 @@ P(k)&=2k+1<2^k\\
 P(k+1 )&=2(k+1)+1<2^{k+1}\\
 \end{align}$$
 
-It follows that $2^{k+1}=2^{k} \cdot 2$ and given that $2^{k}>2k+1$ it can be said that: $$2^{k}\cdot 2 > (2k+1)\cdot 2$$With some algebra
+It follows that $2^{k+1}=2^{k} \cdot 2$ and given that $2^{k}>2k+1$ it can be said that: $$2^{k}\cdot 2 > (2k+1)\cdot 2$$
+With some algebra
+
 $$\begin{align}
 2^{k}\cdot 2 &> (2k+1)\cdot 2 \\
 &=4k+2 \\
 &= 2\cdot 2k +2 \\
 \end{align}$$
 Since $2(k+1)+1=2k+3$, surely it can be said that 
+
 $$\begin{align}
 2\cdot 2k+2&>2k+3, \forall k\ge 3 \\
 2\cdot 2k+2&>2k+2+1\\
 2\cdot 2k+2&>2(k+1)+1\\
-\end{align}$$ 
+\end{align}$$
+
 and given $$P(k+1 )=2(k+1)+1<2^{k+1}$$
  it is shown that $$2^{k+1}>2(k+1)+1$$
+
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
 
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 
-
-
-
 ### Example 6 : 
 Prove that $P(n): n^{2}\ge 2n+3, n\ge 3$ #inequalities 
+
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
-BASIS STEP:
-Let $n\ge 3$ *(To show that $P(n)$ is true)* 
+
+BASIS STEP: Let $n\ge 3$ *(To show that $P(n)$ is true)* 
+
 $$\begin{align}
 3^{2}&\ge 2(3)+3 \\
 9&\ge 9~~~\checkmark\\
