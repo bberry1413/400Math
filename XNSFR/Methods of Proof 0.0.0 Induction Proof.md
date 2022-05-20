@@ -35,7 +35,7 @@ Triangle Inequality $|x+y| \ge |x|+|y|$
 ### Proof Outline:
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true
 
-BASIS STEP: Let $n=1$ *(To show that $P(n)$ is true)* 
+BASIS STEP: Let $n=1$ (To show that $P(n)$ is true) 
 
 $\therefore P(1)$ is true and $1\in S$ so $S$ is not empty.
 
@@ -45,7 +45,7 @@ Induction Hypothesis: Assume $P(k)$ is true and that the statement holds for $n=
 
 $P(k) \Rightarrow P(k+1)$ , $\forall k \in S$ 
 
-*(To show that whatever statement is true for any positive integer $m$, show it is also true for the next integer $m+1$)*
+(To show that whatever statement is true for any positive integer $m$, show it is also true for the next integer $m+1$)
 
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
 
@@ -69,7 +69,7 @@ Induction Hypothesis: Assume $P(k)$ is true and that the statement holds for $n=
 
 $P(k) \Rightarrow P(k+1)$ , $\forall k \in S$ 
 
-*(To show that whatever statement is true for any positive integer $m$ it is necessarily also true for the next integer $m+1$)*
+(To show that whatever statement is true for any positive integer $m$ it is necessarily also true for the next integer $m+1$)
 
 $$\begin{align}
 P(k)&=2^{3k+1} +5 \\
@@ -126,7 +126,7 @@ Induction Hypothesis: Assume $P(k)$ is true and that the statement holds for $n=
 
 $P(k) \Rightarrow P(k+1)$ , $\forall k \in S$ 
 
-*(To show that whatever statement is true for any positive integer $m$, show it is also true for the next integer $m+1$)*
+(To show that whatever statement is true for any positive integer $m$, show it is also true for the next integer $m+1$)
 
 $$\begin{align}
 P(k)&=1+2+3+...+(k-1)+k=\frac{k(k+1)}{2}\\
@@ -157,7 +157,7 @@ Proof:
 
 Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
 
-BASIS STEP: Let $n=1$ *(To show that $P(n)$ is true)* 
+BASIS STEP: Let $n=1$ (To show that $P(n)$ is true)
 
 $P(1)=(2(1)-1)=(2-1)=1=1^2=1$
 
@@ -169,7 +169,7 @@ Induction Hypothesis: Assume $P(k)$ is true and that the statement holds for $n=
 
 $P(k) \Rightarrow P(k+1)$ , $\forall k \in S$ 
 
-*(To show that whatever statement is true for any positive integer $m$, show it is also true for the next integer $m+1$)*
+(To show that whatever statement is true for any positive integer $m$, show it is also true for the next integer $m+1$)
 
 $$\begin{align}
 P(k)&=1+3+5+...+(2k-1)=k^2\\
@@ -202,7 +202,7 @@ Prove $3^n \ge 2n+1~~~ \forall n \in \mathbb{Z}^+$
 
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
 
-BASIS STEP: Let $n=1$ *(To show that $P(n)$ is true)* 
+BASIS STEP: Let $n=1$ (To show that $P(n)$ is true) 
 
 $P(n)=3^{n}\ge 2n+1$
 
@@ -218,7 +218,7 @@ Induction Hypothesis: Assume $P(k)$ is true and that the statement holds for $n=
 
 $P(k) \Rightarrow P(k+1)$ , $\forall k \in S$ 
 
-*(To show that whatever statement is true for any positive integer $m$, show it is also true for the next integer $m+1$)*
+(To show that whatever statement is true for any positive integer $m$, show it is also true for the next integer $m+1$)
 
 $$\begin{align}
 P(k)&=3^{k}\ge 2k+1\\
@@ -252,7 +252,7 @@ Show that for all integers, $n\ge 3$, $2n+1 < 2^n$  #inequalities
 
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
 
-BASIS STEP: Let $n=3$ *(To show that $P(n)$ is true)* 
+BASIS STEP: Let $n=3$ (To show that $P(n)$ is true) 
 
 $P(n)=2n+1<2^n$
 
@@ -268,7 +268,7 @@ Induction Hypothesis: Assume $P(k)$ is true and that the statement holds for $n=
 
 $P(k) \Rightarrow P(k+1)$ , $\forall k \in S$ 
 
-*(To show that whatever statement is true for any positive integer $m$, show it is also true for the next integer $m+1$)*
+(To show that whatever statement is true for any positive integer $m$, show it is also true for the next integer $m+1$)
 
 $$\begin{align}
 P(k)&=2k+1<2^k\\
@@ -303,7 +303,7 @@ Prove that $P(n): n^{2}\ge 2n+3, n\ge 3$ #inequalities
 
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
 
-BASIS STEP: Let $n\ge 3$ *(To show that $P(n)$ is true)* 
+BASIS STEP: Let $n\ge 3$ (To show that $P(n)$ is true) 
 
 $$\begin{align}
 3^{2}&\ge 2(3)+3 \\
@@ -318,7 +318,7 @@ Induction Hypothesis: Assume $P(k)$ is true and that the statement holds for $n=
 
 $P(k) \Rightarrow P(k+1)$ , $\forall k \in S$ 
 
-*(To show that whatever statement is true for any positive integer $m$, show it is also true for the next integer $m+1$)*
+(To show that whatever statement is true for any positive integer $m$, show it is also true for the next integer $m+1$)
 
 $$\begin{align}
 P(k)&=k^{2} \ge 2k+3\\
