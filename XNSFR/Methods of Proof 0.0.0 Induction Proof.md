@@ -19,6 +19,8 @@ If you are hoping to prove that an equation is true but you haven't yet done so,
 2. **REARRANGE TO MAKE IT LOOK LIKE THE INDUCTION HYPOTHESIS**
 3. **PROVEN FOR THE NEXT TERM IN SEQUENCE, PROVEN FOR ENTIRE SEQUENCE**
 
+**Toolbox**
+
 With an #equality statement, they will often involve #algebra_proof 
 - Combining and splitting like terms
 - Factoring
@@ -29,14 +31,14 @@ With an #equality statement, they will often involve #algebra_proof
 
 With #inequalities statements, they will often involve creating a logical ordered statement like: "this is less than that, so this other thing must be is less than that too"
 
-Triangle Inequality $|x+y| \ge |x|+|y|$
+**Induction Process**
 
 "Does $P(k)$ hold $\forall k \in S$? If it does, we can use $P(k)$ to show that $P(k+1)$ holds and thus P(n) is true."
 
 ### Proof Outline:
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true
 
-BASIS STEP: Let $n=1$ (To show that $P(n)$ is true) 
+BASIS STEP: Let $n=1$ *(To show that* $P(n)$ *is true)* 
 
 $\therefore P(1)$ is true and $1\in S$ so $S$ is not empty.
 
@@ -44,9 +46,9 @@ INDUCTION STEP:
 
 Induction Hypothesis: Assume $P(k)$ is true and that the statement holds for $n=k$, and $k \ge 1$
 
-$P(k) \Rightarrow P(k+1)$ , $\forall k \in S$ 
+**We Need To Show:** $P(k) \Rightarrow P(k+1)$ , $\forall k \in S$ 
 
-(To show that whatever statement is true for any positive integer $m$, show it is also true for the next integer $m+1$)
+*(To show that whatever statement is true for any positive integer* $m$, *show it is also true for the next integer* $m+1$)
 
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
 
