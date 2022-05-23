@@ -16,8 +16,9 @@ If you are hoping to prove that an equation is true but you haven't yet done so,
 
 #### Insights:
 1. **USE THE INDUCTIVE HYPOTHESIS**
-2. **REARRANGE TO MAKE IT LOOK LIKE THE INDUCTION HYPOTHESIS**
-3. **PROVEN FOR THE NEXT TERM IN SEQUENCE, PROVEN FOR ENTIRE SEQUENCE**
+	1. **REARRANGE TO MAKE IT LOOK LIKE THE INDUCTION HYPOTHESIS**
+	2. **USE THE "MAGIC FACTOR"  TO MAKE IT LOOK LIKE THE INDUCTION HYPOTHESIS** #magic_factor
+2. **PROVEN FOR THE NEXT TERM IN SEQUENCE, PROVEN FOR ENTIRE SEQUENCE**
 
 **Toolbox**
 
@@ -34,6 +35,7 @@ With #inequalities statements, they will often involve creating a logical ordere
 **Induction Process**
 
 "Does $P(k)$ hold $\forall k \in S$? If it does, we can use $P(k)$ to show that $P(k+1)$ holds and thus P(n) is true."
+
 
 ### Proof Outline:
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true
@@ -92,7 +94,7 @@ $$\begin{align}
 2^{3k+4}+5&=56x-35\\
 2^{3k+4}+5&=7(8x-5)\\
 \end{align}$$
-*Since* $2^{3k+1} \cdot 2^3 = 2^{3k+4}$*, multiplying both sides of* $P(k)$ *by* $2^3$ *creates a statement that gives* $P(k+1)$ *as a multiple of 7.*
+*Since* $2^{3k+1} \cdot 2^3 = 2^{3k+4}$*, multiplying both sides of* $P(k)$ *by* $2^3$ #magic_factor  *creates a statement that gives* $P(k+1)$ *as a multiple of 7.*
 
 So for $P(k+1)$
 
@@ -351,7 +353,7 @@ $$\begin{align}
 
 It is shown that 
 
-P(k+1)=(k+1)^{2} \ge 2(k+1)+3\\
+$P(k+1)=(k+1)^{2} \ge 2(k+1)+3$
 
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
 
@@ -359,7 +361,5 @@ $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 
 
 ---
-
-
 
 #induction #proof 
