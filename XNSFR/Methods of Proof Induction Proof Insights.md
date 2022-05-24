@@ -21,8 +21,8 @@ If you are hoping to prove that an equation is true but you haven't yet done so,
 **Principle Of Mathematical Induction, PMI**: 
 
 Let $P(n)$ be a property that is defined for integers $n$, and let a be a fixed integer. Suppose the following statements are true:
-1. $P(a)$ is true
-2. For all integers $k \ge a$, if $P(k)$ is true then $P(k+1)$ is true.
+1st - $P(a)$ is true
+2nd - For all integers $k \ge a$, if $P(k)$ is true then $P(k+1)$ is true.
 
 Then the statement: *for all integers* $n \ge a,~~P(n)$ *is true.*
 
@@ -32,7 +32,7 @@ PMI is also equivalent to the following property about the set of integers.
 
 *Suppose S is any set of integers satisfying that* $a \in S$, *and for all integers* $k \ge a$, *if* $k \in S$ *then* $k+1$ *is in S*. *Then S must contain every integer greater than or equal to a.* 
 
-Proving a statement by mathematical induction is a two step process: the BASIS step and the INDUCTION step
+Proving a statement by mathematical induction is a two step process: the **BASIS** step and the **INDUCTION** step
 
 #### Insights:
 1. **USE THE INDUCTIVE HYPOTHESIS**
@@ -47,10 +47,9 @@ In the **BASIS** step of the proof, you must show that the property is true for 
 
 In the **INDUCTIVE** step of the proof, you assume that $P(k)$ is true for an arbitrary integer $k$ that is close to $a$, given by $k \ge a$. This is called the #inductive_hypothesis. $P(k+1)$ is gained then by substituting $k+1$ into $P(k)$
 
+*During the inductive step, a substitution or a* #magic_factor *is often used to get* $P(k+1)$ *in terms of* $P(k)$. 
 
-
-
-With an #equality statement, they will often involve #algebra_proof 
+#equality statements will often involve an #algebra_proof or utilizing a #magic_factor 
 - Combining and splitting like terms
 - Factoring
 - Fractions
@@ -69,7 +68,7 @@ Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true
 
 BASIS STEP: Let $n=1$ *(To show that* $P(n)$ *is true)* 
 
-$\therefore P(1)$ is true and $1\in S$ so $S$ is not empty.
+$\therefore~P(1)$ is true and $1\in S$ so $S$ is not empty.
 
 INDUCTION STEP: 
 
@@ -93,7 +92,7 @@ BASIS STEP: Let $n=1$ (To show that $P(n)$ is true)
 $$2^{3(1)+1}+5=2^{4}+5=21$$
 21 is a multiple of 7. 
 
-$\therefore P(1)$ is true and $1\in S$ so $S$ is not empty.
+$\therefore~P(1)$ is true and $1\in S$ so $S$ is not empty.
 
 INDUCTION STEP: 
 
@@ -121,6 +120,7 @@ $$\begin{align}
 2^{3k+4}+5&=56x-35\\
 2^{3k+4}+5&=7(8x-5)\\
 \end{align}$$
+
 *Since* $2^{3k+1} \cdot 2^3 = 2^{3k+4}$*, multiplying both sides of* $P(k)$ *by* $2^3$ *creates a statement that gives* $P(k+1)$ *as a multiple of 7.*
 
 So for $P(k+1)$
@@ -150,7 +150,7 @@ BASIS STEP: Let $n=1$ (To show that $P(n)$ is true)
 
 $P(1)=\frac{1(1+1)}{2}=\frac{2}{2}=1$
 
-$\therefore P(1)$ is true and $1\in S$ so $S$ is not empty.
+$\therefore~P(1)$ is true and $1\in S$ so $S$ is not empty.
 
 
 INDUCTION STEP: 
@@ -194,7 +194,7 @@ BASIS STEP: Let $n=1$ (To show that $P(n)$ is true)
 
 $P(1)=(2(1)-1)=(2-1)=1=1^2=1$
 
-$\therefore P(1)$ is true and $1\in S$ so $S$ is not empty.
+$\therefore~P(1)$ is true and $1\in S$ so $S$ is not empty.
 
 INDUCTION STEP: 
 
@@ -243,7 +243,7 @@ $P(1)=3^{1} \ge 2(1)+1$
 
 $=3\ge 3~\checkmark$
 
-$\therefore P(1)$ is true and $1\in S$ so $S$ is not empty.
+$\therefore~P(1)$ is true and $1\in S$ so $S$ is not empty.
 
 INDUCTION STEP: 
 
@@ -316,6 +316,7 @@ $$\begin{align}
 &=4k+2 \\
 &= 2\cdot 2k +2 \\
 \end{align}$$
+
 Since $2(k+1)+1=2k+3$, surely it can be said that 
 
 $$\begin{align}
@@ -343,7 +344,7 @@ $$\begin{align}
 9&\ge 9~~~\checkmark\\
 \end{align}$$
 
-$\therefore P(3)$ is true and $3\in S$ so $S$ is not empty.
+$\therefore~P(3)$ is true and $3\in S$ so $S$ is not empty.
 
 INDUCTION STEP: 
 
@@ -380,15 +381,12 @@ $$\begin{align}
 
 It is shown that 
 
-P(k+1)=(k+1)^{2} \ge 2(k+1)+3\\
+$P(k+1)=(k+1)^{2} \ge 2(k+1)+3$
 
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
 
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 
-
 ---
-
-
 
 #induction #proof 
