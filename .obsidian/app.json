@@ -1,5 +1,6 @@
 {
   "legacyEditor": false,
   "livePreview": true,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "spellcheck": true
 }

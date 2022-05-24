@@ -14,13 +14,36 @@ If you are hoping to prove that an equation is true but you haven't yet done so,
 
 **Format 5 - iff:** Start by writing "We must show that" and give the equation you want to prove true. In successive steps, indicate that this equation is true, $\iff$ various other equations are true. BE SURE that both directions of the iff claim are correct. Because each subsequent equation is true iff the previous equation is true, then you will have shown the original equation is true. 
 
+[Section 5.2 - 5.4, *Discrete Math* - Susan Epp]
+
+#### Section 5.2 Notes
+**Principle Of Mathematical Induction**: 
+
+Let $P(n)$ be a property that is defined for integers $n$, and let a be a fixed integer. Suppose the following statements are true:
+1. $P(a)$ is true
+2. For all integers $k \ge a$, if $P(k)$ is true then $P(k+1)$ is true.
+
+Then the statement: *for all integers* $n \ge a,~~P(n)$ *is true.*
+
+The validity of proof by mathematical induction is generally taken as an axiom. That is why it is referred to as the *principle of mathematical induction, P.M.I* rather than as a theorem. 
+
+P.M.I is also equivalent to the following property about the set of integers. 
+
+*Suppose S is any set of integers satisfying that* $a \in S$, and for all integers $k \ge a$, if $k \in S$ then $k+1$ is in S. Then S must contain every integer greater than or equal to a. 
+
+Proving a statement by mathematical induction is a two step process: the BASIS step and the INDUCTION step
+
 #### Insights:
 1. **USE THE INDUCTIVE HYPOTHESIS**
-	1. **REARRANGE TO MAKE IT LOOK LIKE THE INDUCTION HYPOTHESIS**
-	2. **USE THE "MAGIC FACTOR"  TO MAKE IT LOOK LIKE THE INDUCTION HYPOTHESIS** #magic_factor
-2. **PROVEN FOR THE NEXT TERM IN SEQUENCE, PROVEN FOR ENTIRE SEQUENCE**
+2. **REARRANGE TO MAKE IT LOOK LIKE THE INDUCTION HYPOTHESIS**
+3. **PROVEN FOR THE NEXT TERM IN SEQUENCE, PROVEN FOR ENTIRE SEQUENCE**
 
 **Toolbox**
+
+To construct a proof by induction, you must first identify the property $P(n)$.
+
+In the **BASIS** step of the proof, you must show that the property is true for $n =1$, or in other words that $P(1)$ is true. *plug in 1 for* $P(n)$ 
+
 
 With an #equality statement, they will often involve #algebra_proof 
 - Combining and splitting like terms
@@ -35,7 +58,6 @@ With #inequalities statements, they will often involve creating a logical ordere
 **Induction Process**
 
 "Does $P(k)$ hold $\forall k \in S$? If it does, we can use $P(k)$ to show that $P(k+1)$ holds and thus P(n) is true."
-
 
 ### Proof Outline:
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true
@@ -72,7 +94,7 @@ INDUCTION STEP:
 
 Induction Hypothesis: Assume $P(k)$ is true and that the statement holds for $n=k$, and $k\ge 1$
 
-We.Need.To.Show $P(k) \Rightarrow P(k+1)$ , $\forall k \in S$ 
+**We Need To Show:** $P(k) \Rightarrow P(k+1)$ , $\forall k \in S$ 
 
 (To show that whatever statement is true for any positive integer $m$ it is necessarily also true for the next integer $m+1$)
 
@@ -94,7 +116,7 @@ $$\begin{align}
 2^{3k+4}+5&=56x-35\\
 2^{3k+4}+5&=7(8x-5)\\
 \end{align}$$
-*Since* $2^{3k+1} \cdot 2^3 = 2^{3k+4}$*, multiplying both sides of* $P(k)$ *by* $2^3$ #magic_factor  *creates a statement that gives* $P(k+1)$ *as a multiple of 7.*
+*Since* $2^{3k+1} \cdot 2^3 = 2^{3k+4}$*, multiplying both sides of* $P(k)$ *by* $2^3$ *creates a statement that gives* $P(k+1)$ *as a multiple of 7.*
 
 So for $P(k+1)$
 
@@ -353,7 +375,7 @@ $$\begin{align}
 
 It is shown that 
 
-$P(k+1)=(k+1)^{2} \ge 2(k+1)+3$
+P(k+1)=(k+1)^{2} \ge 2(k+1)+3\\
 
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
 
@@ -361,5 +383,7 @@ $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 
 
 ---
+
+
 
 #induction #proof 

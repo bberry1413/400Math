@@ -8,6 +8,10 @@ $P(n)=7^n-4^{n} = 3x$
 
 $P(1)=7^{1}-4^{1}=7-4=3$ and $\frac{3}{3}= 1~~\checkmark$
 
+$P(2)=7^{2}-4^{2}=49-16=33$ and $\frac{33}{3}= 11~~\checkmark$
+
+$P(3)=7^{3}-4^{3}=343-64=279$ and $\frac{279}{3}= 93~~\checkmark$
+
 $\therefore P(1)$ is true and $1\in S$ so $S$ is not empty.
 
 INDUCTION STEP: 
@@ -20,24 +24,30 @@ $P(k) \Rightarrow P(k+1)$ , $\forall k \in S$
 
 $$\begin{align}
 P(k)&=7^{k}-4^{k}=3x\\
-P(k+1)&=7^{k+1}-4^{k+1}=3x \\
+P(k+1)&=7^{k+1}-4^{k+1}=3y \\
 \end{align}$$
-
-Rewriting $P(k)$ with $\ln x$ 
+Assuming $P(k)$ is true, rewriting $P(k)$ with $\ln x$ 
 
 $$\begin{align}
 7^{k}-4^{k}=3x\\
 k\ln7 -k\ln4&=\ln(3x) \\
-k(\ln7 -\ln4)=\ln3+\ln x \\
+k(\ln7 -\ln4)&=\ln3x \\
+k \ln \frac{7}{4}&=\ln 3x
 \end{align}$$
+
+It follows since $k\ln \frac{7}{4} = \ln 3x$, 
 
 $$\begin{align}
 7^{k+1}-4^{k+1}&= (k+1)\ln 7 - (k+1) \ln 4 \\
 &=k\ln7 +\ln7 -k\ln4-\ln4 \\
 &=k\ln7 - k\ln4+\ln7-\ln4 \\
-&=k(\ln7-\ln4) +\frac{\ln7}{\ln4}
+&=k(\ln \frac{7}{4}) +\ln \frac{7}{4}\\
+&=(k+1)(\ln \frac{7}{4})
 \end{align}$$
 
+
+
+The since the divisible number is given by 
 
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
  
