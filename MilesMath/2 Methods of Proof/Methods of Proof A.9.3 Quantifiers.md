@@ -11,4 +11,4 @@ In order to disprove a "for all" statement, a "there exists" statement will be u
 In order to disprove a "there exists" statement, a "for all" statement will be used to show that not one element of S fits the "statement about s." 
 
 ---
-#proof #forall #exists #sets
+#proof #for_all #there_exists #sets

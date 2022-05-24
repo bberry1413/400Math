@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "c55796ae1285cd90",
+        "id": "de20efe12e535c39",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "XNSFR/Methods of Proof Induction Proof Insights.md",
+            "file": "XNSFR/Methods of Proof A.8.3 Proof by Induction.md",
             "mode": "source",
             "source": false
           }
@@ -69,35 +69,46 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "XNSFR/Methods of Proof Induction Proof Insights.md",
+                "file": "XNSFR/Methods of Proof A.8.3 Proof by Induction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "a3316620ff3acbaa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "c55796ae1285cd90",
+  "active": "de20efe12e535c39",
   "lastOpenFiles": [
-    "XNSFR/Methods of Proof Induction Proof Insights.md",
-    "1 Library.md",
-    "MilesMath/2 Methods of Proof/Methods of Proof A.9.1 Quantifiers.md",
-    "MilesMath/Countable Sets (2.3).md",
-    "XNSFR/Methods of Proof A.8.3 Proof by Induction 1.md",
-    "XNSFR/Methods of Proof 0.0.0 Induction Proof.md",
     "XNSFR/Methods of Proof A.8.3 Proof by Induction.md",
-    "MilesMath/2 Methods of Proof/Methods of Proof A.8.4 Proof by Induction.md",
-    "MilesMath/2 Methods of Proof/Methods of Proof A.8.2 Proof by Induction.md",
-    "MilesMath/2 Methods of Proof/Methods of Proof A.8.1 Proof by Induction.md"
+    "2 Tags and Terms.md",
+    "1 Library.md",
+    "MilesMath/1 Set Proofs/Set Proofs A.2.3a Universal Set notation infinite -1n,1n.md",
+    "MilesMath/1 Set Proofs/Set Proofs A.2.1a Set union equality iff subsets.md",
+    "XNSFR/Methods of Proof Induction Proof Insights.md",
+    "MilesMath/1 Set Proofs/Set Proofs (Appendix).md",
+    "0 Tools.md",
+    "MilesMath/2 Methods of Proof/Methods of Proof A.9.1 Quantifiers.md",
+    "MilesMath/Countable Sets (2.3).md"
   ]
 }

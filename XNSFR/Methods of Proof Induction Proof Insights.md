@@ -1,9 +1,10 @@
 ### Notes
+#### Methods of Proof by Induction:
+
 [Induction Proofs, *Discrete Math* - Susan Epp](https://drive.google.com/file/d/1wTR6FQJE1Lv_3CG9ghrWdrpjR_CRfupc/view?usp=sharing)
 
-If you are hoping to prove that an equation is true but you haven't yet done so, either preface it with words "We must show that" or put a question mark above the equal sign.
+If you are hoping to prove that an equation is true but you haven't yet done so, either preface it with words **"We Need To Show"** or put a question mark above the equal sign.
 
-#### Methods of Proof by Induction:
 **Format 1 - the inductive step**: Start with the left hand side of the equation (LHS) to be proved and transform it using definitions, algebra, and (during the inductive step) the inductive hypothesis until you obtain the right-hand side of the equation (RHS).
 
 **Format 2 - the basis step:** Transform the LHS and the RHS of the equation to be proved independently, one after the other, until both sides are shown to equal the same expression. 
@@ -17,7 +18,7 @@ If you are hoping to prove that an equation is true but you haven't yet done so,
 [Section 5.2 - 5.4, *Discrete Math* - Susan Epp]
 
 #### Section 5.2 Notes
-**Principle Of Mathematical Induction**: 
+**Principle Of Mathematical Induction, PMI**: 
 
 Let $P(n)$ be a property that is defined for integers $n$, and let a be a fixed integer. Suppose the following statements are true:
 1. $P(a)$ is true
@@ -25,11 +26,11 @@ Let $P(n)$ be a property that is defined for integers $n$, and let a be a fixed 
 
 Then the statement: *for all integers* $n \ge a,~~P(n)$ *is true.*
 
-The validity of proof by mathematical induction is generally taken as an axiom. That is why it is referred to as the *principle of mathematical induction, P.M.I* rather than as a theorem. 
+The validity of proof by mathematical induction is generally taken as an axiom. That is why it is referred to as the *principle of mathematical induction, PMI* rather than as a theorem. 
 
-P.M.I is also equivalent to the following property about the set of integers. 
+PMI is also equivalent to the following property about the set of integers. 
 
-*Suppose S is any set of integers satisfying that* $a \in S$, and for all integers $k \ge a$, if $k \in S$ then $k+1$ is in S. Then S must contain every integer greater than or equal to a. 
+*Suppose S is any set of integers satisfying that* $a \in S$, *and for all integers* $k \ge a$, *if* $k \in S$ *then* $k+1$ *is in S*. *Then S must contain every integer greater than or equal to a.* 
 
 Proving a statement by mathematical induction is a two step process: the BASIS step and the INDUCTION step
 
@@ -42,7 +43,11 @@ Proving a statement by mathematical induction is a two step process: the BASIS s
 
 To construct a proof by induction, you must first identify the property $P(n)$.
 
-In the **BASIS** step of the proof, you must show that the property is true for $n =1$, or in other words that $P(1)$ is true. *plug in 1 for* $P(n)$ 
+In the **BASIS** step of the proof, you must show that the property is true for $n =a$, or in other words that $P(a)$ is true. *plug in some # for* $P(n)$, *verify that LHS = RHS* $\checkmark$ 
+
+In the **INDUCTIVE** step of the proof, you assume that $P(k)$ is true for an arbitrary integer $k$ that is close to $a$, given by $k \ge a$. This is called the #inductive_hypothesis. $P(k+1)$ is gained then by substituting $k+1$ into $P(k)$
+
+
 
 
 With an #equality statement, they will often involve #algebra_proof 
