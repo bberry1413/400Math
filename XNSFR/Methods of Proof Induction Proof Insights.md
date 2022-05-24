@@ -21,7 +21,9 @@ If you are hoping to prove that an equation is true but you haven't yet done so,
 **Principle Of Mathematical Induction, PMI**: 
 
 Let $P(n)$ be a property that is defined for integers $n$, and let a be a fixed integer. Suppose the following statements are true:
+
 1st - $P(a)$ is true
+
 2nd - For all integers $k \ge a$, if $P(k)$ is true then $P(k+1)$ is true.
 
 Then the statement: *for all integers* $n \ge a,~~P(n)$ *is true.*
