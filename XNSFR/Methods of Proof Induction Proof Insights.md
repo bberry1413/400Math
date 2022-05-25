@@ -309,9 +309,9 @@ P(k)&=2k+1<2^k\\
 P(k+1 )&=2(k+1)+1<2^{k+1}\\
 \end{align}$$
 
-It follows that $2^{k+1}=2^{k} \cdot 2$ and given that $2^{k}>2k+1$ it can be said that: 
+It follows that $2^{k+1}=2^{k} \cdot 2$ and given that $2k+1<2^{k}$ it can be said that: 
 
-$$2^{k}\cdot 2 > (2k+1)\cdot 2$$
+$$(2k+1)\cdot 2<2^{k}\cdot 2$$
 
 With some algebra
 
