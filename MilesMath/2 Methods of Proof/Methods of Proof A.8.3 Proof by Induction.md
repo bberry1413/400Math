@@ -1,3 +1,5 @@
+[[Methods of Proof Induction Proof Insights]]
+
 Prove by induction for every $n=1,2,3,...$ that the number $$7^n-4^n$$ is divisible by 3. 
 
 #manipulate_powers 
@@ -44,3 +46,6 @@ So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$.
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 
 $\blacksquare$
+
+---
+#induction 
