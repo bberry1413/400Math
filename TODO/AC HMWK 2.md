@@ -113,7 +113,7 @@ This statement is false because it means, "Some number $x$ and every $y$ in $\ma
 This statement is true because it means "Some $x$ and some $y$ in $\mathbb{R}$ have a sum equal 1." There are several examples: $x=0.2$ and $y =0.8$ is one example.
 
 ---
-#quantifiers #forall #exists #Reals
+#quantifiers #for_all #there_exists #Reals
 
 ---
 ### A.9.3) Explain what must be done in order to prove an assertion of the following form: (a) $\forall s\in S$ "statement about s" is true. (b) $\exists s\in S$ "statement about s" is true.
@@ -128,7 +128,7 @@ In order to disprove a "for all" statement, a "there exists" statement will be u
 
 In order to disprove a "there exists" statement, a "for all" statement will be used to show that not one element of S fits the "statement about s." 
 
-#proof #forall #exists #sets
+#proof #for_all #there_exists #sets
 
 ---
 ### A.9.4) In the preceding exercise suppose that $S=\emptyset$. Could either statement be true? Must either statement be true?
@@ -138,4 +138,4 @@ The "there exists" statement is always false because there is nothing to verify 
 
 No, both statements do not need to be true. 
 
-#sets #empty_set #forall #exists 
+#sets #empty_set #for_all #there_exists 

@@ -2,6 +2,8 @@
 
 
 ### Numerical Analysis
+Text: 
+
 - [[Bisection Method]]
 - [[Floating Point]]
 - [[Fixed Point]]

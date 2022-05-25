@@ -22,4 +22,4 @@ This statement is false because it means, "Some number $x$ and every $y$ in $\ma
 This statement is true because it means "Some $x$ and some $y$ in $\mathbb{R}$ have a sum equal 1." There are several examples: $x=0.2$ and $y =0.8$ is one example.
 
 ---
-#quantifiers #forall #exists #Reals
+#quantifiers #for_all #there_exists #Reals

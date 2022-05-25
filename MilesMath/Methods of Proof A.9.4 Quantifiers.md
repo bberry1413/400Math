@@ -6,4 +6,4 @@ The "there exists" statement is always false because there is nothing to verify 
 No, both statements do not need to be true. 
 
 ---
-#sets #empty_set #forall #exists 
+#sets #empty_set #for_all #there_exists 
