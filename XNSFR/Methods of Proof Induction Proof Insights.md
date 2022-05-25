@@ -256,10 +256,10 @@ $P(k) \Rightarrow P(k+1)$ , $\forall k \in S$
 
 $$\begin{align}
 P(k)&=3^{k}\ge 2k+1\\
-P(k)&=3^{k+1}\ge 2(k+1)+1\\
+P(k+1)&=3^{k+1}\ge 2(k+1)+1\\
 \end{align}$$
 
-It follows that $3^{k+1}=3^{k} \cdot 3$ and given that $3^{k}>2k+1$ it can be said that: 
+It follows that $3^{k+1}=3^{k} \cdot 3$ and given that #magic_factor $3^{k}>2k+1$ it can be said that: 
 
 $$\begin{align}
 3^{k+1}&=3^{k}\cdot 3\\

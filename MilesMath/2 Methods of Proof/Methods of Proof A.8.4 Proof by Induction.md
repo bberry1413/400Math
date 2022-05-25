@@ -8,6 +8,10 @@ Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true
 
 $P(n)=(1+x)^n \ge 1+nx$
 
+$P(1)=(1+x)^1 \ge 1+1x$
+
+$1+x \ge 1+1x ~\checkmark$
+
 $\therefore~P(1)$ is true and $1\in S$ so $S$ is not empty.
 
 **INDUCTION STEP:** 
@@ -17,6 +21,25 @@ Induction Hypothesis: Assume $P(k)$ is true and that the statement holds for $n=
 *We Need To Show:* $P(k) \Rightarrow P(k+1)$ , $\forall k \in S$ 
 
 *(To show that whatever statement is true for any positive integer* $m$, *show it is also true for the next integer* $m+1$)
+
+$$\begin{align}
+P(k)&=(1+x)^k \ge 1+kx\\
+P(k+1)&=(1+x)^{k+1} \ge 1+(k+1)x\\
+\end{align}$$
+
+It follows that $(1+x)^{k+1}=(1+x)^{k}(1+x)$ and given that $(1+x)^k \ge 1+kx$ it can be said that
+
+$$\begin{align}
+(1+x)^{k+1}&=(1+x)^{k}(1+x) \\
+&\ge (1+kx)(1+x)=1+x+kx+kx^2\\
+\end{align}$$
+
+Factoring gives
+
+$$\begin{align}
+(1+x)^{k+1}&\ge 1+x+kx+kx^2\\
+&\ge 1+x+()
+\end{align}$$
 
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
 
