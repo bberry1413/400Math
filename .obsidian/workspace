@@ -7,8 +7,12 @@
         "id": "f8b96f71c1f1ab42",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "XNSFR/Methods of Proof Induction Proof Insights.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "XNSFR/Methods of Proof Induction Proof Insights.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,6 +100,8 @@
   },
   "active": "f8b96f71c1f1ab42",
   "lastOpenFiles": [
+    "XNSFR/Methods of Proof Induction Proof Insights.md",
+    "MilesMath/2 Methods of Proof/Methods of Proof A.8.2 Proof by Induction.md",
     "XNSFR/Methods of Proof A.8.3 Proof by Induction.md"
   ]
 }

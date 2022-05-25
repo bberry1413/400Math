@@ -228,6 +228,9 @@ Since both sides of the equation are equal, it follows that $P(k)\Rightarrow P(k
 
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 
+
+[[Methods of Proof A.8.2 Proof by Induction]]
+
 ### Example 4:
 Prove $3^n \ge 2n+1~~~ \forall n \in \mathbb{Z}^+$ #inequalities 
 
@@ -260,7 +263,7 @@ It follows that $3^{k+1}=3^{k} \cdot 3$ and given that $3^{k}>2k+1$ it can be sa
 
 $$\begin{align}
 3^{k+1}&=3^{k}\cdot 3\\
-&\ge (2k+1) \cdot 3=3\cdot 2k +3 \hspace{1cm} \textit{distributive property}\\
+&\ge (2k+1) \cdot 3=3\cdot 2k +3~~~~ \textit{distributive property}\\
 &\ge 3 \cdot 2k + 3
 \end{align}$$
 

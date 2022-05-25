@@ -2,5 +2,6 @@
   "legacyEditor": false,
   "livePreview": true,
   "showLineNumber": true,
-  "spellcheck": true
+  "spellcheck": true,
+  "alwaysUpdateLinks": true
 }

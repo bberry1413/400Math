@@ -1,5 +1,7 @@
 Prove by induction for every $n=1,2,3,...$ that the number $$7^n-4^n$$ is divisible by 3. 
 
+#manipulate_powers 
+
 Proof: Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true 
 
 BASIS STEP: Let $n=1$ (To show that $P(n)$ is true) 
@@ -7,10 +9,6 @@ BASIS STEP: Let $n=1$ (To show that $P(n)$ is true)
 $P(n)=7^n-4^{n} = 3x$
 
 $P(1)=7^{1}-4^{1}=7-4=3$ and $\frac{3}{3}= 1~~\checkmark$
-
-$P(2)=7^{2}-4^{2}=49-16=33$ and $\frac{33}{3}= 11~~\checkmark$
-
-$P(3)=7^{3}-4^{3}=343-64=279$ and $\frac{279}{3}= 93~~\checkmark$
 
 $\therefore P(1)$ is true and $1\in S$ so $S$ is not empty.
 
@@ -23,32 +21,26 @@ $P(k) \Rightarrow P(k+1)$ , $\forall k \in S$
 (To show that whatever statement is true for any positive integer $m$, show it is also true for the next integer $m+1$)
 
 $$\begin{align}
-P(k)&=7^{k}-4^{k}=3x\\
-P(k+1)&=7^{k+1}-4^{k+1}=3y \\
+P(k)&=7^{k}-4^{k}\\
+P(k+1)&=7^{k+1}-4^{k+1} \\
 \end{align}$$
-Assuming $P(k)$ is true, rewriting $P(k)$ with $\ln x$ 
+It follows that in order for $P(k+1)$ to be true, it must be a multiple of 3, given by $3x$
+
+*We Need To Show:* $7^{k+1}-4^{k+1} \stackrel{?}{=} 3x$
+
+Rewriting $P(k+1)$
 
 $$\begin{align}
-7^{k}-4^{k}=3x\\
-k\ln7 -k\ln4&=\ln(3x) \\
-k(\ln7 -\ln4)&=\ln3x \\
-k \ln \frac{7}{4}&=\ln 3x
+7^{k+1}-4^{k+1}&=7^{k}\cdot 7 -4^{k}\cdot 4\\
+&=(7^k)(3+4)-4^k(4)\\
+&=7^k(3)+7^k(4)-4^k(4)\\
+&=7^k(3)+4(7^k-4^k)\\
 \end{align}$$
 
-It follows since $k\ln \frac{7}{4} = \ln 3x$, 
-
-$$\begin{align}
-7^{k+1}-4^{k+1}&= (k+1)\ln 7 - (k+1) \ln 4 \\
-&=k\ln7 +\ln7 -k\ln4-\ln4 \\
-&=k\ln7 - k\ln4+\ln7-\ln4 \\
-&=k(\ln \frac{7}{4}) +\ln \frac{7}{4}\\
-&=(k+1)(\ln \frac{7}{4})
-\end{align}$$
-
-
-
-The since the divisible number is given by 
+#magic_factor It is given that $7^k(3)$ is divisible by 3 and since it is also assumed that $7^k-4^k$ is divisible by 3, $4(7^k-4^k)$ is also divisible by 3 because it is a multiple of 3.
 
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
  
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
+
+$\blacksquare$
