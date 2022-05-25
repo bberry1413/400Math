@@ -27,6 +27,10 @@ P(k)&=(1+x)^k \ge 1+kx\\
 P(k+1)&=(1+x)^{k+1} \ge 1+(k+1)x\\
 \end{align}$$
 
+We Need To Show 
+$$(1+x)^{k+1} \stackrel{?}{\ge} 1+ x +kx$$
+
+
 It follows that $(1+x)^{k+1}=(1+x)^{k}(1+x)$ and given that $(1+x)^k \ge 1+kx$ it can be said that
 
 $$\begin{align}
@@ -34,11 +38,11 @@ $$\begin{align}
 &\ge (1+kx)(1+x)=1+x+kx+kx^2\\
 \end{align}$$
 
-Factoring gives
+Rearranging gives
 
 $$\begin{align}
 (1+x)^{k+1}&\ge 1+x+kx+kx^2\\
-&\ge 1+x+()
+&\ge (1+kx)+(x+kx^2)
 \end{align}$$
 
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
