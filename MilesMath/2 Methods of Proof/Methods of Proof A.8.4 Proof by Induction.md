@@ -27,15 +27,15 @@ P(k)&=(1+x)^k \ge 1+kx\\
 P(k+1)&=(1+x)^{k+1} \ge 1+(k+1)x\\
 \end{align}$$
 
-We Need To Show 
-$$(1+x)^{k+1} \stackrel{?}{\ge} 1+ x +kx$$
+*We Need To Show:* $(1+x)^{k+1} \stackrel{?}{\ge} 1+ x +kx=1+x(1+k)$
 
+Now, 
 
 It follows that $(1+x)^{k+1}=(1+x)^{k}(1+x)$ and given that $(1+x)^k \ge 1+kx$ it can be said that
 
 $$\begin{align}
 (1+x)^{k+1}&=(1+x)^{k}(1+x) \\
-&\ge (1+kx)(1+x)=1+x+kx+kx^2\\
+&\ge (1+kx)(1+x)\\
 \end{align}$$
 
 Rearranging gives

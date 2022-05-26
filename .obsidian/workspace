@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "XNSFR/Methods of Proof Induction Proof Insights.md",
+            "file": "MilesMath/2 Methods of Proof/Methods of Proof A.8.4 Proof by Induction.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "XNSFR/Methods of Proof Induction Proof Insights.md",
+                "file": "MilesMath/2 Methods of Proof/Methods of Proof A.8.4 Proof by Induction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,8 +100,8 @@
   },
   "active": "48b42bf6c0ec23cb",
   "lastOpenFiles": [
-    "XNSFR/Methods of Proof Induction Proof Insights.md",
     "MilesMath/2 Methods of Proof/Methods of Proof A.8.4 Proof by Induction.md",
+    "XNSFR/Methods of Proof Induction Proof Insights.md",
     "MilesMath/2 Methods of Proof/Methods of Proof A.8.3 Proof by Induction.md",
     "MilesMath/2 Methods of Proof/Methods of Proof A.8.2 Proof by Induction.md",
     "MilesMath/2 Methods of Proof/Methods of Proof A.8.1 Proof by Induction.md",
