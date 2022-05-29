@@ -78,14 +78,21 @@ A3 - *existence of a zero element*:
 There is a unique number $0\in \mathbb{R}$ so that, for all $a\in \mathbb{R}$, $a+0=0+a=a$.
 
 Consider $x\in \mathbb{Q}$, where $x=\frac{a}{b}$, and $a\in \mathbb{Z}$ and $b\in \mathbb{N}$
+
 $$x+0=\frac{a}{b}+ \frac{0}{1}=\frac{a}{b}+ \frac{0}{1}\cdot \frac{b}{b}=\frac{a+0b}{b}=\frac{a}{b}$$
+
 A4 - *existence of a negative element* :
+
 For any number $a\in \mathbb{R}$ there is a corresponding number denoted by $-a$ with the property that $a+(-a)=0$.
 
 Consider $x\in \mathbb{Q}$, where $x=\frac{a}{b}$, and $a\in \mathbb{Z}$ and $b\in \mathbb{N}$
+
 $$x+(-x)=\frac{a}{b}+(-\frac{a}{b})=\frac{a}{b}$$
+
 Since $b\in \mathbb{N}$ it cannot be negative and so it follows
+
 $$\frac{a}{b}+(- \frac{a}{b})=\frac{a}{b}+(\frac{-a}{b})=\frac{a-a}{b}=\frac{0}{b}=0$$
+
 M1 - *closure under multiplication and commutative property of multiplication*:
 For any $a,b\in \mathbb{R}$ there is a number $ab\in \mathbb{R}$ and $ab=ba$.
 M1 Closure) Let $x,y\in\mathbb{Q}$. By definition of the set of rational numbers, $$x=\frac{a}{b} \hspace{0.5cm}y=\frac{c}{d}$$
