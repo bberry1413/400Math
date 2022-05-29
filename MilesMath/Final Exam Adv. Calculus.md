@@ -5,43 +5,76 @@ $\mathbb{Q}$ is the set of rational numbers of the form $\frac{a}{b}$ where $a\i
 
 Field Axioms:
 A1 - *closure under addition and commutative property of addition*: 
+
 For any $a,b\in \mathbb{R}$ there is a number $a+b\in \mathbb{R}$ and $a+b=b+a$. 
 
-A1 closure) Let $x,y\in\mathbb{Q}$. By definition of the set of rational numbers, $$x=\frac{a}{b} \hspace{0.5cm}y=\frac{c}{d}$$
-where $a,c \in \mathbb{Z}$ and $b,d\in \mathbb{N}$. It is given that both $\mathbb{Z}$ and $\mathbb{N}$ are closed under addition and multiplication.  It follows that:$$x+y=\frac{a}{b} + \frac{c}{d}$$
-and with some algebra$$\frac{ad+cb}{bd}$$It follows that $ad,cb, ~\text{and}~ad+cb \in \mathbb{Z}$ and $bd \in \mathbb{N}$ and therefore $\frac{ad+cb}{bd} \in \mathbb{Q}$, by the definition of rational numbers. 
+A1 closure) Let $x,y\in\mathbb{Q}$. By definition of the set of rational numbers, 
+
+$$x=\frac{a}{b} \hspace{0.5cm}y=\frac{c}{d}$$
+
+where $a,c \in \mathbb{Z}$ and $b,d\in \mathbb{N}$. It is given that both $\mathbb{Z}$ and $\mathbb{N}$ are closed under addition and multiplication.  It follows that:
+
+$$x+y=\frac{a}{b} + \frac{c}{d}$$
+
+and with some algebra
+
+$$\frac{ad+cb}{bd}$$
+It follows that $ad,cb, ~\text{and}~ad+cb \in \mathbb{Z}$ and $bd \in \mathbb{N}$ and therefore $\frac{ad+cb}{bd} \in \mathbb{Q}$, by the definition of rational numbers. 
+
 The addition of rational numbers creates a rational number, so $\mathbb{Q}$ is closed under addition.
 
 A1 Commutative) 
+
 Let $x,y\in\mathbb{Q}$. By definition of the set of rational numbers, $x=\frac{a}{b} \hspace{0.5cm}y=\frac{c}{d}$
-where $a,c \in \mathbb{Z}$ and $b,d\in \mathbb{N}$. It is given that both $\mathbb{Z}$ and $\mathbb{N}$ are closed under addition and multiplication.  It follows that:$$x+y=\frac{a}{b} + \frac{c}{d}=\frac{ad+cb}{bd}$$
-and $$y+x=\frac{c}{d}+ \frac{a}{b}=\frac{cb+ad}{bd}$$
+where $a,c \in \mathbb{Z}$ and $b,d\in \mathbb{N}$. It is given that both $\mathbb{Z}$ and $\mathbb{N}$ are closed under addition and multiplication.  It follows that:
+
+$$x+y=\frac{a}{b} + \frac{c}{d}=\frac{ad+cb}{bd}$$
+
+and 
+
+$$y+x=\frac{c}{d}+ \frac{a}{b}=\frac{cb+ad}{bd}$$
+
 To verify that $x+y=y+x$,  
+
 $$\begin{align}
 \frac{ad+cb}{bd}&=\frac{cb+ad}{bd}\\
 \frac{ad}{bd} + \frac{cb}{bd} &= \frac{cb}{bd} + \frac{ad}{bd}\\
 \frac{a}{b}+ \frac{c}{d}&=\frac{c}{d}+ \frac{a}{b}\\
 x+y &= y+x
 \end{align}$$
+
 A2 - *associative property of addition* :
+
 For any $a,b,c\in \mathbb{R}$ the identity $(a+b)+c=a+(b+c)$ is true.
 
 Let $x,y,z \in \mathbb{Q}$ , consider $(x+y)+z$ and given that $x=\frac{a}{b}$, $y=\frac{c}{d}$, and $z=\frac{f}{g}$ 
+
 $$(x+y)+z=\left(\frac{a}{b} + \frac{c}{d}\right)+\frac{f}{g}$$
-Using the fact that $$\frac{a}{b} + \frac{c}{d} = \frac{ad+cb}{bd}$$
+
+Using the fact that 
+
+$$\frac{a}{b} + \frac{c}{d} = \frac{ad+cb}{bd}$$
+
 $$\left(\frac{a}{b} + \frac{c}{d}\right)+ \frac{f}{g}=\left(\frac{ad+cb}{bd}\right)+ \frac{f}{g}=\frac{g(ad+cb)+f(bd)}{bdg}=\frac{adg+cbg+fbd}{bdg}$$
+
 Next, consider $x+(y+z)$
+
 $$x+(y+z)=\frac{a}{b} + \left(\frac{c}{d}+\frac{f}{g}\right)=\frac{a}{b}+ \left(\frac{cg+df}{dg}\right)=\frac{b(cg+df)+a(dg)}{bdg}=\frac{bcg+bdf+adg}{bdg}$$ 
+
 Verify that $(x+y)+z=x+(y+z)$ 
+
 Setting the two expressions equal to each other, simplifying, and utilizing A1:
+
 $$\begin{align}
 \frac{adg+cbg+fbd}{bdg}&=\frac{bcg+bdf+adg}{bdg}\\
 \frac{adg}{bdg}+ \frac{cbg}{bdg} + \frac{fbd}{bdg} &=\frac{cgb}{bdg}+ \frac{bdf}{bdg}+ \frac{adg}{bdg}\\
 \left(\frac{a}{b} + \frac{c}{d}\right)+ \frac{f}{g}&=\frac{a}{b}+ \left(\frac{c}{d}+ \frac{f}{g}\right)
 \end{align}$$
+
 It follows that $(x+y)+z=x+(y+z)$.
 
 A3 - *existence of a zero element*:
+
 There is a unique number $0\in \mathbb{R}$ so that, for all $a\in \mathbb{R}$, $a+0=0+a=a$.
 
 Consider $x\in \mathbb{Q}$, where $x=\frac{a}{b}$, and $a\in \mathbb{Z}$ and $b\in \mathbb{N}$
