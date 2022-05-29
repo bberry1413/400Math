@@ -11,9 +11,23 @@
           "state": {
             "file": "MilesMath/Final Exam Adv. Calculus.md",
             "mode": "source",
-            "source": false
+            "source": true
           }
-        }
+        },
+        "group": "22a3bcf9d6f0bfee"
+      },
+      {
+        "id": "8d876576a7bc398b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "MilesMath/Final Exam Adv. Calculus.md",
+            "mode": "preview",
+            "source": true
+          }
+        },
+        "group": "22a3bcf9d6f0bfee"
       }
     ],
     "direction": "vertical"

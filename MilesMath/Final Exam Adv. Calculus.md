@@ -1,9 +1,11 @@
 ### Brandiece Berry - Advanced Calculus Final Exam - SPR 2022
 __Problem 1
 Show $\mathbb{Q}$ is a field with the field axioms.__
+
 $\mathbb{Q}$ is the set of rational numbers of the form $\frac{a}{b}$ where $a\in \mathbb{Z}$ and $b\in \mathbb{N}$.
 
 Field Axioms:
+
 A1 - *closure under addition and commutative property of addition*: 
 
 For any $a,b\in \mathbb{R}$ there is a number $a+b\in \mathbb{R}$ and $a+b=b+a$. 
@@ -157,27 +159,34 @@ For any $a,b,c \in \mathbb{R}$ the identity $(a+b)c=ac+bc$ is true.
 Let $x,y,z \in \mathbb{Q}$ , given that $x=\frac{a}{b}$, $y=\frac{c}{d}$, and $z=\frac{f}{g}$.  It follows that:
 
 $$x+y=\frac{a}{b} + \frac{c}{d}=\frac{ad+cb}{bd}$$
+
 Consider $(x+y)z$
+
 $$\begin{align}
 (x+y)z&=\left(\frac{ad+cb}{bd}\right) \frac{f}{g}\\
 &=\frac{f(ad+cb)}{bdg}\\
 &=\frac{adf+cbf}{bdg}\\
 &=\frac{adf}{bdg}+ \frac{cbf}{bdg}
 \end{align}$$
+
 Next, consider $xz+yz$ 
+
 $$\begin{align}
 \frac{a}{b}\cdot\frac{f}{g} &+ \frac{c}{d} \cdot\frac{f}{g} \\
 \frac{af}{bg}&+ \frac{cf}{dg}\\
 \frac{d(af)}{bdg}&+\frac{b(cf)}{bdg}\\
 \frac{adf}{bdg} &+ \frac{cbf}{bdg}
 \end{align}$$
+
 It follows that $(x+y)z=xz+yz$.
+
 <div style="page-break-after: always; visibility: hidden"> \pagebreak </div>
 
 __Problem 2
 Show that 
 
 $$|x_1+x_2+...+x_{n}|\le |x_1|+|x_2|+...+|x_n|$$
+
 __For any numbers $x_{1}, x_{2}, ...,x_{n}$__
  
 Proof: 
@@ -192,11 +201,14 @@ $\therefore P(1)$ is true and $1\in S$ so $S$ is not empty.
 
 Induction Step: Assume $k\ge 1$ such that $P(k)$ is true and $k \in S$ 
 
-$$P(k)=|x_1+x_2+...+x_{k}|\le |x_1|+|x_2|+...+|x_k|$$
+*We Need To Show* $P(k)\Rightarrow P(k+1)$
 
-$$P(k+1)=|x_1+x_2+...+x_{k}+x_{k+1}|\le |x_1|+|x_2|+...+|x_k|+|x_{k+1}|$$
-By the Triangle Inequality, $|x+y|\le|x|+|y|$, 
+$$\begin{align}
+P(k)=|x_1+x_2+...+x_{k}|&\le |x_1|+|x_2|+...+|x_k|\\
+P(k+1)=|x_1+x_2+...+x_{k}+x_{k+1}|&\le |x_1|+|x_2|+...+|x_k|+|x_{k+1}|
+\end{align}$$
 
+By the Triangle Inequality, $|x+y|\le|x|+|y|$, so,
 
 $$P(k+1)=|x_1+x_2+...
 +x_{k}+x_{k+1}|\le |x_{1}+x_{2}+...+x_{k}|+|x_{k+1}|$$
@@ -220,9 +232,13 @@ $\blacksquare$
 __Problem 3
 Consider the sequence defined recursively by $$x_{1}=\sqrt{2}, \hspace{0.5cm} x_{n}=\sqrt{2+x_{n-1}}$$
 Show by induction that $x_{n} \le x_{n+1}$ for all $n$.__
+
 Proof:
+
 Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true.
+
 Basis Step: Consider $n=1$
+
 $$\begin{align}
 x_{1}&<x_{2}\\
 \sqrt{2}&<\sqrt{2+\sqrt{2}}\\
@@ -230,10 +246,13 @@ x_{1}&<x_{2}\\
 \end{align}$$
 
 $\therefore P(1)$ is true and $1\in S$ so $S$ is not empty.
+
 Induction Step: Assume $k\ge 1$ such that $P(k)$ is true and $k \in S$
+
 Consider $x_{k}<x_{k+1}$ , with some algebra
+
 $$\begin{align}
-x_{k}&<x_{k+1}\\
+P(k)=x_{k}&<x_{k+1}\\
 +2~&~~+2\\
 2+x_{k}&<2+x_{k+1}\\
 \sqrt{2+x_{k}}&<\sqrt{2+x_{k+1}}\\
@@ -243,6 +262,7 @@ x_{k}&<x_{k+1}\\
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
 
 $\therefore$ By PMI for $x_{1}=\sqrt{2}, x_{n}=\sqrt{2+x_{n-1}}~~~\forall n\in \mathbb{N}$, $x_{n}\le x_{n+1}$.
+
 $\blacksquare$
 
 <div style="page-break-after: always; visibility: hidden"> \pagebreak </div>
@@ -250,20 +270,28 @@ $\blacksquare$
 __Problem 4
 If $\{s_{n}\}$ is a sequence of positive number converging to 0, show that $\{\sqrt{s_{n}}\}$ also converges to zero.__
 
-Let $\epsilon>0$. Since ${s_n}$ is convergent, we can find an $N \in \mathbb{N}$ such that $\forall n>N$, $$|s_{n}|<\epsilon^2$$
+Let $\epsilon>0$. Since ${s_n}$ is convergent, we can find an $N \in \mathbb{N}$ such that $\forall n>N$, 
+
+$$|s_{n}|<\epsilon^2$$
+
 Since $s_{n}>0, |s_{n}|=s_{n}$
+
 Therefore $s_{n}<\epsilon^2$
+
 With some algebra
+
 $$\begin{align}
 s_{n}&<\epsilon^{2}\\
 \sqrt{s_{n}}&<\sqrt{\epsilon^2}\\
 |\sqrt{s_n}-0|&<\epsilon
 \end{align}$$
+
 $\blacksquare$
 
 <div style="page-break-after: always; visibility: hidden"> \pagebreak </div>
 
 __Problem 5
+
 Which statements are true?__
 	1. If $\{s_{n}\}$ and $\{t_{n}\}$ are both divergent then so is $\{s_{n}+t_{n}\}$. True
 	2. If $\{s_{n}\}$ and $\{t_{n}\}$ are both divergent then so is $\{s_{n}t_{n}\}$. True
