@@ -19,6 +19,7 @@ $$x+y=\frac{a}{b} + \frac{c}{d}$$
 and with some algebra
 
 $$\frac{ad+cb}{bd}$$
+
 It follows that $ad,cb, ~\text{and}~ad+cb \in \mathbb{Z}$ and $bd \in \mathbb{N}$ and therefore $\frac{ad+cb}{bd} \in \mathbb{Q}$, by the definition of rational numbers. 
 
 The addition of rational numbers creates a rational number, so $\mathbb{Q}$ is closed under addition.
@@ -94,33 +95,68 @@ Since $b\in \mathbb{N}$ it cannot be negative and so it follows
 $$\frac{a}{b}+(- \frac{a}{b})=\frac{a}{b}+(\frac{-a}{b})=\frac{a-a}{b}=\frac{0}{b}=0$$
 
 M1 - *closure under multiplication and commutative property of multiplication*:
+
 For any $a,b\in \mathbb{R}$ there is a number $ab\in \mathbb{R}$ and $ab=ba$.
-M1 Closure) Let $x,y\in\mathbb{Q}$. By definition of the set of rational numbers, $$x=\frac{a}{b} \hspace{0.5cm}y=\frac{c}{d}$$
-where $a,c \in \mathbb{Z}$ and $b,d\in \mathbb{N}$. It is given that both $\mathbb{Z}$ and $\mathbb{N}$ are closed under addition and multiplication.  It follows that: $$xy=\frac{a}{b} \cdot \frac{c}{d} =\frac{ac}{bd}$$
+
+M1 Closure) Let $x,y\in\mathbb{Q}$. By definition of the set of rational numbers, 
+
+$$x=\frac{a}{b} \hspace{0.5cm}y=\frac{c}{d}$$
+
+where $a,c \in \mathbb{Z}$ and $b,d\in \mathbb{N}$. It is given that both $\mathbb{Z}$ and $\mathbb{N}$ are closed under addition and multiplication.  It follows that: 
+
+$$xy=\frac{a}{b} \cdot \frac{c}{d} =\frac{ac}{bd}$$
+
 It follows that $ac\in \mathbb{Z}$ and $bd\in \mathbb{N}$ and therefore $\frac{ac}{bd} \in \mathbb{Q}$ by the definition of rational numbers. 
+
 The product of rational numbers creates another rational number, so $\mathbb{Q}$ is closed under multiplication
 
 M1 Commutative Property) Consider $x\cdot y$, given that $x=\frac{a}{b}$ and $y=\frac{c}{d}$ 
+
 $$x\cdot y = \frac{a}{b} \cdot \frac{c}{d} = \frac{ac}{bd} = \frac{ca}{db} = \frac{c}{d} \cdot \frac{a}{b} = y \cdot x$$
+
 M2 - *associative property of multiplication*:
+
 For any $a,b,c\in \mathbb{R}$ the identity $(ab)c=a(bc)$ is true.
+
 Let $x,y,z \in \mathbb{Q}$ , consider$(xy)z$, given that $x=\frac{a}{b}$, $y=\frac{c}{d}$, and $z=\frac{f}{g}$. Because of M1, $xy=\frac{ac}{bd} \in \mathbb{Q}$ and it is given that $\frac{f}{g} \in \mathbb{Q}$. 
+
 It follows that
+
 $$(xy)z=\left(\frac{a}{b}\cdot \frac{c}{d}\right) \frac{f}{g}=\frac{acf}{bdg}=\frac{a}{b}\left(\frac{cf}{dg}\right)=\frac{a}{b}\left(\frac{c}{d} \cdot \frac{f}{g}\right)=x(yz)$$
+
 M3 - *identity property of multiplication*:
+
 There is a unique number $1\in \mathbb{R}$ so that $a1=1a=a$ for all $a\in \mathbb{R}$.
+
 Consider $x\in \mathbb{Q}$, where $x=\frac{a}{b}$, and $a\in \mathbb{Z}$ and $b\in \mathbb{N}$
+
 $$x\cdot 1=1x = 1\left(\frac{a}{b}\right)=\left(\frac{a}{b}\right)\cdot 1=\frac{a}{b}$$
+
 M4 - *inverse property of multiplication*:
+
 For any number $a\in \mathbb{R}, a \ne 0$, there is a corresponding number denoted $a^{-1}$ with the property that $aa^{-1}=1$.
+
 Consider $x\in \mathbb{Q}$, where $x=\frac{a}{b}$and $a\in \mathbb{Z}$ and $b\in \mathbb{N}$
+
 $$x\cdot x^{-1}= \frac{a}{b}\left(\frac{a}{b}\right)^{-1}$$
-By the rules of exponents $$\left(\frac{a}{b}\right)^{-1}=\frac{b}{a}$$
-It follows that $$\frac{a}{b}\left(\frac{a}{b}\right)^{-1}=\frac{a}{b}\left(\frac{b}{a}\right)=\frac{ab}{ba}$$ By M1 $ab = ba$ so
+
+By the rules of exponents 
+
+$$\left(\frac{a}{b}\right)^{-1}=\frac{b}{a}$$
+
+It follows that 
+
+$$\frac{a}{b}\left(\frac{a}{b}\right)^{-1}=\frac{a}{b}\left(\frac{b}{a}\right)=\frac{ab}{ba}$$ By M1 $ab = ba$ so
+
 $$\frac{ab}{ba}=\frac{ba}{ba}=\frac{b}{b} \cdot \frac{a}{a} = 1 \cdot 1=1$$
+
 AM1 - *distributive property*:
+
 For any $a,b,c \in \mathbb{R}$ the identity $(a+b)c=ac+bc$ is true.
-Let $x,y,z \in \mathbb{Q}$ , given that $x=\frac{a}{b}$, $y=\frac{c}{d}$, and $z=\frac{f}{g}$.  It follows that:$$x+y=\frac{a}{b} + \frac{c}{d}=\frac{ad+cb}{bd}$$
+
+Let $x,y,z \in \mathbb{Q}$ , given that $x=\frac{a}{b}$, $y=\frac{c}{d}$, and $z=\frac{f}{g}$.  It follows that:
+
+$$x+y=\frac{a}{b} + \frac{c}{d}=\frac{ad+cb}{bd}$$
 Consider $(x+y)z$
 $$\begin{align}
 (x+y)z&=\left(\frac{ad+cb}{bd}\right) \frac{f}{g}\\
@@ -139,22 +175,39 @@ It follows that $(x+y)z=xz+yz$.
 <div style="page-break-after: always; visibility: hidden"> \pagebreak </div>
 
 __Problem 2
-Show that $$|x_1+x_2+...+x_{n}|\le |x_1|+|x_2|+...+|x_n|$$ For any numbers $x_{1}, x_{2}, ...,x_{n}$__
+Show that 
+
+$$|x_1+x_2+...+x_{n}|\le |x_1|+|x_2|+...+|x_n|$$
+__For any numbers $x_{1}, x_{2}, ...,x_{n}$__
+ 
 Proof: 
+
 Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true.
+
 Basis Step: Consider $n=1$.
+
 $|x_{1}|\le|x_{1}|~~\checkmark$
 
 $\therefore P(1)$ is true and $1\in S$ so $S$ is not empty.
+
 Induction Step: Assume $k\ge 1$ such that $P(k)$ is true and $k \in S$ 
-$$|x_1+x_2+...+x_{k}|\le |x_1|+|x_2|+...+|x_k|$$
-It follows that:
-$$|x_1+x_2+...
-+x_{k}|\le |(x_{1}+x_{2}+...+x_{k-1})+x_{k}|$$
+
+$$P(k)=|x_1+x_2+...+x_{k}|\le |x_1|+|x_2|+...+|x_k|$$
+
+$$P(k+1)=|x_1+x_2+...+x_{k}+x_{k+1}|\le |x_1|+|x_2|+...+|x_k|+|x_{k+1}|$$
 By the Triangle Inequality, $|x+y|\le|x|+|y|$, 
+
+
+$$|x_1+x_2+...
++x_{k}+x_{k+1}|\le |x_{1}+x_{2}+...+x_{k}|+|x_{k+1}|$$
+
+And $P(k)=|x_1+x_2+...+x_{k}|\le |x_1|+|x_2|+...+|x_k|$ 
+
 $$|(x_1+x_2+...+x_{k-1})+x_{k}|\le |x_{1}+x_{2}+...+x_{k-1}|+|x_{k}|$$
 
-using the inductive hypothesis $$|x_1+x_2+...+x_{k-1}|\le |x_1|+|x_2|+...+|x_{k-1}|$$
+using the inductive hypothesis 
+
+$$|x_1+x_2+...+x_{k-1}|\le |x_1|+|x_2|+...+|x_{k-1}|$$
 
 
 <div style="page-break-after: always; visibility: hidden"> \pagebreak </div>
