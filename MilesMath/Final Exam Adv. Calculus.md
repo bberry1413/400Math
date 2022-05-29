@@ -198,17 +198,22 @@ $$P(k+1)=|x_1+x_2+...+x_{k}+x_{k+1}|\le |x_1|+|x_2|+...+|x_k|+|x_{k+1}|$$
 By the Triangle Inequality, $|x+y|\le|x|+|y|$, 
 
 
-$$|x_1+x_2+...
+$$P(k+1)=|x_1+x_2+...
 +x_{k}+x_{k+1}|\le |x_{1}+x_{2}+...+x_{k}|+|x_{k+1}|$$
 
-And $P(k)=|x_1+x_2+...+x_{k}|\le |x_1|+|x_2|+...+|x_k|$ 
+Utilizing $P(k)=|x_1+x_2+...+x_{k}|\le |x_1|+|x_2|+...+|x_k|$ gives,
 
-$$|(x_1+x_2+...+x_{k-1})+x_{k}|\le |x_{1}+x_{2}+...+x_{k-1}|+|x_{k}|$$
+$$P(k+1)=|x_1+x_2+...+x_{k}+x_{k+1}|\le |x_1|+|x_2|+...+|x_k|+|x_{k+1}|$$
 
-using the inductive hypothesis 
+Then it is shown that 
 
-$$|x_1+x_2+...+x_{k-1}|\le |x_1|+|x_2|+...+|x_{k-1}|$$
+$$|x_1+x_2+...+x_{n}|\le |x_1|+|x_2|+...+|x_n|$$
 
+So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 
+
+$\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
+
+$\$
 
 <div style="page-break-after: always; visibility: hidden"> \pagebreak </div>
 
