@@ -213,7 +213,7 @@ So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$.
 
 $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 
-$\$
+$\blacksquare$
 
 <div style="page-break-after: always; visibility: hidden"> \pagebreak </div>
 
