@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sequences.md",
+            "file": "MilesMath/Final Exam Adv. Calculus.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sequences.md",
+                "file": "MilesMath/Final Exam Adv. Calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,9 +100,9 @@
   },
   "active": "48b42bf6c0ec23cb",
   "lastOpenFiles": [
+    "MilesMath/Final Exam Adv. Calculus.md",
     "Sequences.md",
     "MilesMath/Sequences (2.2).md",
-    "MilesMath/Final Exam Adv. Calculus.md",
     "COURSERA/Intro to Mathematical Thinking.md",
     "XNSFR/Methods of Proof Induction Proof Insights.md",
     "MilesMath/2 Methods of Proof/Methods of Proof A.8.4 Proof by Induction.md",

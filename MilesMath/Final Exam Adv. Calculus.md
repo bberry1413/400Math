@@ -280,7 +280,9 @@ $\blacksquare$
 #### Problem 4
 __If__ $\mathbf{\{s_{n}\}}$ __is a sequence of positive number converging to 0, show that__ $\mathbf{\{\sqrt{s_{n}}\}}$ __also converges to zero.__
 
-Let $\epsilon>0$. Since ${s_n}$ is convergent, we can find an $N \in \mathbb{N}$ such that $\forall n>N$, 
+
+
+Let $\epsilon>0$. Since $\{s_n\}$ is convergent, we can find an $n \in \mathbb{N}$ such that $\forall n>N$, 
 
 $$|s_{n}|<\epsilon^2$$
 
