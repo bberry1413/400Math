@@ -1,6 +1,6 @@
 ### Brandiece Berry - Advanced Calculus Final Exam - SPR 2022
-__Problem 1
-Show $\mathbb{Q}$ is a field with the field axioms.__
+#### Problem 1
+__Show__ $\mathbb{Q}$ __is a field with the field axioms.__
 
 $\mathbb{Q}$ is the set of rational numbers of the form $\frac{a}{b}$ where $a\in \mathbb{Z}$ and $b\in \mathbb{N}$.
 
@@ -182,12 +182,12 @@ It follows that $(x+y)z=xz+yz$.
 
 <div style="page-break-after: always; visibility: hidden"> \pagebreak </div>
 
-__Problem 2
-Show that 
+#### Problem 2
+__Show that__ 
 
-$$|x_1+x_2+...+x_{n}|\le |x_1|+|x_2|+...+|x_n|$$
+$$\mathbf{|x_1+x_2+...+x_{n}|\le |x_1|+|x_2|+...+|x_n|}$$
 
-__For any numbers $x_{1}, x_{2}, ...,x_{n}$__
+__For any numbers__ $\mathbf{x_{1}, x_{2}, ...,x_{n}}$
  
 Proof: 
 
@@ -201,12 +201,12 @@ $\therefore P(1)$ is true and $1\in S$ so $S$ is not empty.
 
 Induction Step: Assume $k\ge 1$ such that $P(k)$ is true and $k \in S$ 
 
-*We Need To Show* $P(k)\Rightarrow P(k+1)$
-
 $$\begin{align}
 P(k)=|x_1+x_2+...+x_{k}|&\le |x_1|+|x_2|+...+|x_k|\\
 P(k+1)=|x_1+x_2+...+x_{k}+x_{k+1}|&\le |x_1|+|x_2|+...+|x_k|+|x_{k+1}|
 \end{align}$$
+
+*We Need To Show* $P(k)\Rightarrow P(k+1)$
 
 By the Triangle Inequality, $|x+y|\le|x|+|y|$, so, rewriting $P(k+1)$
 
@@ -227,11 +227,11 @@ $\therefore$ By PMI $P(n)$ is true $\forall n \in S$.
 
 $\blacksquare$
 
-<div style="page-break-after: always; visibility: hidden"> \pagebreak </div>
+#### Problem 3
+__Consider the sequence defined recursively by__
 
-__Problem 3
-Consider the sequence defined recursively by $$x_{1}=\sqrt{2}, \hspace{0.5cm} x_{n}=\sqrt{2+x_{n-1}}$$
-Show by induction that $x_{n} \le x_{n+1}$ for all $n$.__
+$$\mathbf{x_{1}=\sqrt{2}, \hspace{0.5cm} x_{n}=\sqrt{2+x_{n-1}}}$$
+__Show by induction that__ $\mathbf{x_{n} \le x_{n+1}}$ __for all n.__
 
 Proof:
 
@@ -256,7 +256,9 @@ P(k+1)=x_{k+1} &\le x_{k+2}
 
 Since $x_{k}=\sqrt{2+x_{k-1}}$, it follows that $x_{k+1}=\sqrt{2+x_{k}}$ and $x_{k+2}=\sqrt{2+x_{k+1}}$
 
-*We Need To Show:* $\sqrt{2+x_{k}}\le \sqrt{2+x_{k+1}}$
+*We Need To Show:* $P(k) \Rightarrow P(k+1)$ or $x_{k+1} \stackrel{?}{\le} x_{k+2}$ which is the same as 
+
+$$\sqrt{2+x_{k}}\stackrel{?}{\le} \sqrt{2+x_{k+1}}$$
 
 Consider $P(k)=x_{k}<x_{k+1}$ , with some algebra
 
@@ -274,10 +276,9 @@ $\therefore$ By PMI for $x_{1}=\sqrt{2}, x_{n}=\sqrt{2+x_{n-1}}~~~\forall n\in \
 
 $\blacksquare$
 
-<div style="page-break-after: always; visibility: hidden"> \pagebreak </div>
 
-__Problem 4
-If $\{s_{n}\}$ is a sequence of positive number converging to 0, show that $\{\sqrt{s_{n}}\}$ also converges to zero.__
+#### Problem 4
+__If__ $\mathbf{\{s_{n}\}}$ __is a sequence of positive number converging to 0, show that__ $\mathbf{\{\sqrt{s_{n}}\}}$ __also converges to zero.__
 
 Let $\epsilon>0$. Since ${s_n}$ is convergent, we can find an $N \in \mathbb{N}$ such that $\forall n>N$, 
 
@@ -297,15 +298,14 @@ s_{n}&<\epsilon^{2}\\
 
 $\blacksquare$
 
-<div style="page-break-after: always; visibility: hidden"> \pagebreak </div>
 
-__Problem 5
+#### Problem 5
 
-Which statements are true?__
-	1. If $\{s_{n}\}$ and $\{t_{n}\}$ are both divergent then so is $\{s_{n}+t_{n}\}$. True
-	2. If $\{s_{n}\}$ and $\{t_{n}\}$ are both divergent then so is $\{s_{n}t_{n}\}$. True
-	3. If $\{s_{n}\}$ and $\{s_{n}+t_{n}\}$ are both convergent then so is $\{t_{n}\}$. False
-	4. If $\{s_{n}\}$ and $\{s_{n}t_{n}\}$ are both convergent then so is $\{t_{n}\}$. True
-	5. If $\{s_{n}\}$ convergent then so too is $\{\frac{1}{s_{n}}\}$. True
-	6. If $\{s_{n}\}$ convergent then so too is $\{(s_{n})^2\}$.  True
-	7. If $\{(s_{n})^2\}$convergent then so too is  $\{s_{n}\}$. False
+__Which statements are true?__
+1) If $\{s_{n}\}$ and $\{t_{n}\}$ are both divergent then so is $\{s_{n}+t_{n}\}$. True
+2) If $\{s_{n}\}$ and $\{t_{n}\}$ are both divergent then so is $\{s_{n}t_{n}\}$. True
+3) If $\{s_{n}\}$ and $\{s_{n}+t_{n}\}$ are both convergent then so is $\{t_{n}\}$. False
+4) If $\{s_{n}\}$ and $\{s_{n}t_{n}\}$ are both convergent then so is $\{t_{n}\}$. True
+5) If $\{s_{n}\}$ convergent then so too is $\{\frac{1}{s_{n}}\}$. True
+6) If $\{s_{n}\}$ convergent then so too is $\{(s_{n})^2\}$.  True
+7) If $\{(s_{n})^2\}$convergent then so too is  $\{s_{n}\}$. False
