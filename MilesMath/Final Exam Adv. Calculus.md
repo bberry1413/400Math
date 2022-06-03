@@ -208,7 +208,7 @@ P(k)=|x_1+x_2+...+x_{k}|&\le |x_1|+|x_2|+...+|x_k|\\
 P(k+1)=|x_1+x_2+...+x_{k}+x_{k+1}|&\le |x_1|+|x_2|+...+|x_k|+|x_{k+1}|
 \end{align}$$
 
-By the Triangle Inequality, $|x+y|\le|x|+|y|$, so,
+By the Triangle Inequality, $|x+y|\le|x|+|y|$, so, rewriting $P(k+1)$
 
 $$P(k+1)=|x_1+x_2+...
 +x_{k}+x_{k+1}|\le |x_{1}+x_{2}+...+x_{k}|+|x_{k+1}|$$
@@ -240,23 +240,32 @@ Let $S\subset \mathbb{N}$ such that $\forall n \in S$, $P(n)$ is true.
 Basis Step: Consider $n=1$
 
 $$\begin{align}
-x_{1}&<x_{2}\\
-\sqrt{2}&<\sqrt{2+\sqrt{2}}\\
-1.414&<1.847 ~~\checkmark
+x_{1}&\le x_{2}\\
+\sqrt{2}&\le\sqrt{2+\sqrt{2}}\\
+1.414&\le1.847 ~~\checkmark
 \end{align}$$
 
 $\therefore P(1)$ is true and $1\in S$ so $S$ is not empty.
 
 Induction Step: Assume $k\ge 1$ such that $P(k)$ is true and $k \in S$
 
-Consider $x_{k}<x_{k+1}$ , with some algebra
+$$\begin{align}
+P(k)=x_{k} &\le x_{k+1}\\
+P(k+1)=x_{k+1} &\le x_{k+2}
+\end{align}$$
+
+Since $x_{k}=\sqrt{2+x_{k-1}}$, it follows that $x_{k+1}=\sqrt{2+x_{k}}$ and $x_{k+2}=\sqrt{2+x_{k+1}}$
+
+*We Need To Show:* $\sqrt{2+x_{k}}\le \sqrt{2+x_{k+1}}$
+
+Consider $P(k)=x_{k}<x_{k+1}$ , with some algebra
 
 $$\begin{align}
-P(k)=x_{k}&<x_{k+1}\\
+P(k)=x_{k}&\le x_{k+1}\\
 +2~&~~+2\\
-2+x_{k}&<2+x_{k+1}\\
-\sqrt{2+x_{k}}&<\sqrt{2+x_{k+1}}\\
-\text{Hence,}~~~~x_{k+1}&<x_{k+2}
+2+x_{k}&\le 2+x_{k+1}\\
+\sqrt{2+x_{k}}&\le \sqrt{2+x_{k+1}}\\
+\text{Hence,}~~~~x_{k+1}&\le x_{k+2}
 \end{align}$$
 
 So, $P(k)\Rightarrow P(k+1)$ and $S=\mathbb{N}$. 

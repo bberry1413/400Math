@@ -11,23 +11,9 @@
           "state": {
             "file": "MilesMath/Final Exam Adv. Calculus.md",
             "mode": "source",
-            "source": true
+            "source": false
           }
-        },
-        "group": "22a3bcf9d6f0bfee"
-      },
-      {
-        "id": "8d876576a7bc398b",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "MilesMath/Final Exam Adv. Calculus.md",
-            "mode": "preview",
-            "source": true
-          }
-        },
-        "group": "22a3bcf9d6f0bfee"
+        }
       }
     ],
     "direction": "vertical"
@@ -115,6 +101,7 @@
   "active": "48b42bf6c0ec23cb",
   "lastOpenFiles": [
     "MilesMath/Final Exam Adv. Calculus.md",
+    "COURSERA/Intro to Mathematical Thinking.md",
     "XNSFR/Methods of Proof Induction Proof Insights.md",
     "MilesMath/2 Methods of Proof/Methods of Proof A.8.4 Proof by Induction.md",
     "MilesMath/2 Methods of Proof/Methods of Proof A.8.3 Proof by Induction.md",
