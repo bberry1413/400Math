@@ -77,21 +77,17 @@ Proof:
 Let $\epsilon$ be a positive real number. Let $N$ be any integer greater than $\dfrac{1}{\epsilon}-1$. Suppose that $n>N$. Then $n>\dfrac{1}{\epsilon} -1$, and with some algebra
 
 
-Convergent vs Divergent
+__Convergent vs Divergent__
 
-A sequence is said to be #convergent  if it's _limit_ exists. Else, it is said to be #divergent .
+- A sequence is said to be #convergent  if it's _limit_ exists. Else, it is said to be #divergent. 
+	- Also, if the limit is infinite, the sequence is also said to be divergent. 
 
-Also, if the limit is infinite, the sequence is also said to be divergent. 
+__Examples of Convergent Sequences__
+- The sequence $\frac{1}{n}$ is convergent, because $\displaystyle{\lim_{n \to \infty} \frac{1}{n}=0}$
+- The constant sequence $c$ is convergent, with $c \in \mathbb{R}$ because $\displaystyle{\lim_{n \to \infty} c =c}$
+- The sequence $\big(1+\frac{1}{n}\big)^n$ is convergent, because $\displaystyle{\lim_{n \to \infty} \bigg(1+\frac{1}{n}\bigg)^n=e}$
 
-Examples of Convergent Sequences
-
-The sequence $\frac{1}{n}$ is convergent, because $\displaystyle{\lim_{n \to \infty} \frac{1}{n}=0}$
-
-The constant sequence $c$ is convergent, with $c \in \mathbb{R}$ because $\displaystyle{\lim_{n \to \infty} c =c}$
-
-The sequence $\big(1+\frac{1}{n}\big)^n$ is convergent, because $\displaystyle{\lim_{n \to \infty} \bigg(1+\frac{1}{n}\bigg)^n=e}$
-
-Examples of Divergent Sequences
+__Examples of Divergent Sequences__
 
 The sequence $n$ is divergent, because $\displaystyle{\lim_{n \to \infty} n=\infty}$ and the sequence $-n$ is divergent, because $\displaystyle{\lim_{n \to \infty} n=-\infty}$
 

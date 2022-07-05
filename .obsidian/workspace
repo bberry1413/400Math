@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "MilesMath/4 Order Structure (1.4)/Order Structure (1.4).md",
+            "file": "Reasoning About Subsets 1.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 420.0036334991455
+    "width": 423.0036334991455
   },
   "right": {
     "id": "c9c3a65e743821ef",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MilesMath/4 Order Structure (1.4)/Order Structure (1.4).md",
+                "file": "Reasoning About Subsets 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
   },
   "active": "3c76c2c440374082",
   "lastOpenFiles": [
-    "MilesMath/4 Order Structure (1.4)/Order Structure (1.4).md",
-    "MilesMath/Final Exam Adv. Calculus.md",
-    "Sequences.md",
-    "XNSFR/Methods of Proof Induction Proof Insights.md",
-    "MilesMath/2 Methods of Proof/Methods of Proof (Appendix).md",
-    "Methods of Proof 0.0.0 Induction Proof.md",
-    "MilesMath/2 Methods of Proof/Methods of Proof A.5.1 Indirect Proof Irrationals.md",
-    "MilesMath/2 Methods of Proof/Methods of Proof A.8.3 Proof by Induction.md",
-    "MilesMath/Countable Sets (2.3).md",
-    "MilesMath/Sequences (2.2).md"
+    "Reasoning About Subsets 1.md",
+    "Sequences Insights.md",
+    "Set Notation.md",
+    "Statement.md",
+    "Systems of Equations.md",
+    "Tutoring At Miles College.md",
+    "Workflow for Virtual Tutoring.md",
+    "Cramer's Rule.md",
+    "Latex Tools.md",
+    "Linear Algebra Study Questions.md"
   ]
 }
