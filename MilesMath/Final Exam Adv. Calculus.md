@@ -319,10 +319,23 @@ $\blacksquare$
 #### Problem 5
 
 __Which statements are true?__
-1) If $\{s_{n}\}$ and $\{t_{n}\}$ are both divergent then so is $\{s_{n}+t_{n}\}$. True
-2) If $\{s_{n}\}$ and $\{t_{n}\}$ are both divergent then so is $\{s_{n}t_{n}\}$. True
-3) If $\{s_{n}\}$ and $\{s_{n}+t_{n}\}$ are both convergent then so is $\{t_{n}\}$. False
-4) If $\{s_{n}\}$ and $\{s_{n}t_{n}\}$ are both convergent then so is $\{t_{n}\}$. True
-5) If $\{s_{n}\}$ convergent then so too is $\{\frac{1}{s_{n}}\}$. True
-6) If $\{s_{n}\}$ convergent then so too is $\{(s_{n})^2\}$.  True
+1) If $\{s_{n}\}$ and $\{t_{n}\}$ are both divergent then so is $\{s_{n}+t_{n}\}$. __FALSE__
+
+Let $\{s_{n}\}=n$ and $\{t_{n}\}=-n$, then the sum $\{s_{n}+t_{n}\}=0$
+
+2) If $\{s_{n}\}$ and $\{t_{n}\}$ are both divergent then so is $\{s_{n}t_{n}\}$. __TRUE__
+
+Let 
+
+3) If $\{s_{n}\}$ and $\{s_{n}+t_{n}\}$ are both convergent then so is $\{t_{n}\}$. __TRUE__
+
+4) If $\{s_{n}\}$ and $\{s_{n}t_{n}\}$ are both convergent then so is $\{t_{n}\}$. 
+
+
+5) If $\{s_{n}\}$ convergent then so too is $\bigg\{\dfrac{1}{s_{n}}\bigg\}$. True
+
+
+6) If $\{s_{n}\}$ convergent then so too is $\{(s_{n})^2\}$.  __TRUE__
+
+
 7) If $\{(s_{n})^2\}$convergent then so too is  $\{s_{n}\}$. False

@@ -26,7 +26,7 @@ __We say the__ #limit __of this sequence is 0__
 
 This notion is made precise in the following definition:
 
-$\mathbf{x_{n} \rightarrow L}$: For a sequence $x$ of real numbers and a real number L , we say that $x$ has the _limit L_ (or $x$ #converges to L) __if__ for every $\epsilon>0$ there exists a natural number N such that if $n>N$, then $|x_{n}-L| < \epsilon$. When x converges to the real number L, we write $\displaystyle{\lim_{n \to \infty} x_n =L}$ or $x \rightarrow L$. If no such number L exists, we say $x$ #diverges or $\displaystyle{\lim_{n \to \infty} x_n}$  _does not exist._
+$\mathbf{x_{n} \rightarrow L}$: For a sequence $x$ of real numbers and a real number L , we say that $x$ has the _limit L_ (or $x$ _converges_ to L) #convergent __if__ for every $\epsilon>0$ there exists a natural number N such that if $n>N$, then $|x_{n}-L| < \epsilon$. When x converges to the real number L, we write $\displaystyle{\lim_{n \to \infty} x_n =L}$ or $x \rightarrow L$. If no such number L exists, we say $x$ _diverges_ or $\displaystyle{\lim_{n \to \infty} x_n}$  _does not exist._ #divergent
 
 _A takeaway from this definition is that it is usually assumed that_ $\epsilon$ _as being a small positive number, so the expression_ $|x_{n}-L| < \epsilon$ _means that the distance between_ $x_n$  _and L is small._  
 
@@ -76,4 +76,26 @@ Proof:
 
 Let $\epsilon$ be a positive real number. Let $N$ be any integer greater than $\dfrac{1}{\epsilon}-1$. Suppose that $n>N$. Then $n>\dfrac{1}{\epsilon} -1$, and with some algebra
 
-$$$$
+
+Convergent vs Divergent
+
+A sequence is said to be #convergent  if it's _limit_ exists. Else, it is said to be #divergent .
+
+Also, if the limit is infinite, the sequence is also said to be divergent. 
+
+Examples of Convergent Sequences
+
+The sequence $\frac{1}{n}$ is convergent, because $\displaystyle{\lim_{n \to \infty} \frac{1}{n}=0}$
+
+The constant sequence $c$ is convergent, with $c \in \mathbb{R}$ because $\displaystyle{\lim_{n \to \infty} c =c}$
+
+The sequence $\big(1+\frac{1}{n}\big)^n$ is convergent, because $\displaystyle{\lim_{n \to \infty} \bigg(1+\frac{1}{n}\bigg)^n=e}$
+
+Examples of Divergent Sequences
+
+The sequence $n$ is divergent, because $\displaystyle{\lim_{n \to \infty} n=\infty}$ and the sequence $-n$ is divergent, because $\displaystyle{\lim_{n \to \infty} n=-\infty}$
+
+The sequence $a_{n}=\dfrac{4x^{3}+5x}{3x^{2}+8}$ is divergent, because after utilizing L'Hospital's Rule to find the limit 
+
+$$\displaystyle{\lim_{n \to \infty} \dfrac{4x^{3}+5x}{3x^{2}+8}} \rightarrow \lim_{n \to \infty} 4x=\infty$$
+The sequence $(-1)^n$ is divergent, because $\displaystyle{\lim_{n \to \infty} (-1)^n=\text{DNE}}$ 

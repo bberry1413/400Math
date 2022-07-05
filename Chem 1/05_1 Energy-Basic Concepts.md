@@ -1,0 +1,12 @@
+- **Thermal energy**
+	- kinetic energy of molecules #nrg
+		Recall: [[01_6 Energy]] #KineticNrg #PotentialNrg
+	- thermal energy is associated with the xnsfr of energy as heat between a hotter object and a cooler one
+- **Law of Conservation of Energy**
+	- Energy can neither be created nor destroyed
+- **system**
+	- object or collection of objects being studied
+- **surroundings**
+	- everything outside the system that can exchange energy and/or matter with the system
+- **thermal equilibrium**
+	- 

@@ -1,0 +1,10 @@
+🏠[[Gen Chem 1 Index]]
+# Individual Concepts
+[[Balancing EQs]]
+[[Equilibrium]]
+[[Aqueous Solution]]
+[[Precipitation Rxns]]
+[[Acids and Bases]]
+[[Gas Rxns]]
+[[ReDox Rxns]]
+[[Classifying Rxns]]

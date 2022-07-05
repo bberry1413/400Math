@@ -1,4 +1,4 @@
-Big Ideas
+ Big Ideas
 Other types of proof methods:
 Direct Proof
 Indirect proof 
@@ -17,7 +17,7 @@ Insights
 5. [[Methods of Proof A.7.3 Proof By Counterexample]]
 6. [[Methods of Proof A.8.1 Proof by Induction]]
 7. [[Methods of Proof A.8.2 Proof by Induction]]
-8. [[MilesMath/2 Methods of Proof/Methods of Proof A.8.3 Proof by Induction]]
+8. [[Methods of Proof A.8.3 Proof by Induction]]
 9. [[Methods of Proof A.8.4 Proof by Induction]]
 10. [[Methods of Proof A.8.5 Proof by Induction]]
 11. [[Methods of Proof A.8.6 Proof by Induction]]

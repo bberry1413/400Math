@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "48b42bf6c0ec23cb",
+        "id": "3c76c2c440374082",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "MilesMath/Final Exam Adv. Calculus.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "eb6a24cbda5e1478",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Sequences.md",
+            "file": "MilesMath/4 Order Structure (1.4)/Order Structure (1.4).md",
             "mode": "source",
             "source": false
           }
@@ -52,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#divergent",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 420.0036334991455
   },
   "right": {
     "id": "c9c3a65e743821ef",
@@ -82,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sequences.md",
+                "file": "MilesMath/4 Order Structure (1.4)/Order Structure (1.4).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,29 +86,30 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabetical",
                 "useHierarchy": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "eb6a24cbda5e1478",
+  "active": "3c76c2c440374082",
   "lastOpenFiles": [
-    "Sequences.md",
+    "MilesMath/4 Order Structure (1.4)/Order Structure (1.4).md",
     "MilesMath/Final Exam Adv. Calculus.md",
-    "MilesMath/Sequences (2.2).md",
-    "COURSERA/Intro to Mathematical Thinking.md",
+    "Sequences.md",
     "XNSFR/Methods of Proof Induction Proof Insights.md",
-    "MilesMath/2 Methods of Proof/Methods of Proof A.8.4 Proof by Induction.md",
+    "MilesMath/2 Methods of Proof/Methods of Proof (Appendix).md",
+    "Methods of Proof 0.0.0 Induction Proof.md",
+    "MilesMath/2 Methods of Proof/Methods of Proof A.5.1 Indirect Proof Irrationals.md",
     "MilesMath/2 Methods of Proof/Methods of Proof A.8.3 Proof by Induction.md",
-    "MilesMath/2 Methods of Proof/Methods of Proof A.8.2 Proof by Induction.md",
-    "MilesMath/2 Methods of Proof/Methods of Proof A.8.1 Proof by Induction.md",
-    "Methods of Proof 0.0.0 Induction Proof.md"
+    "MilesMath/Countable Sets (2.3).md",
+    "MilesMath/Sequences (2.2).md"
   ]
 }

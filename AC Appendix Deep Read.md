@@ -1,0 +1,11 @@
+- The Empty Set $\emptyset$ is used to represent a set that contains no elements $\{\}$
+
+- The set of Natural numbers $\mathbb{N}$ is given by: $$\mathbb{N}=\{1,2,3,4…\}$$ 
+- The set of Integers $\mathbb{Z}$ is given by: $$\mathbb{Z}=\{…,-3,-2,-1,0,1,2,3,…\}$$
+- The set of Rational numbers $\mathbb{Q}$ is given by: $$\dfrac{m}{n}, ~\text{where}~~m \in \mathbb{Z}~~\text{and}~~ n \in \mathbb{N}$$
+- The set of Real numbers $\mathbb{R}$ is given by: $$\mathbb{R}=(-\infty, \infty)$$
+- $A \subset B$ if every element of A is also an element of B
+- $A \cap B$ is the set consisting of elements from both sets (only elements they have in common)
+- $A \cup B$ is the set consisting of elements of either set
+- $A \setminus B$ is the set consisting of all elements of A not contained within B
+- 
