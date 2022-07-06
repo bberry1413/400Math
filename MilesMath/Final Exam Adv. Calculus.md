@@ -12,9 +12,9 @@ For any $a,b\in \mathbb{R}$ there is a number $a+b\in \mathbb{R}$ and $a+b=b+a$.
 
 A1 closure) Let $x,y\in\mathbb{Q}$. By definition of the set of rational numbers, 
 
-$$x=\frac{a}{b} \hspace{0.5cm}y=\frac{c}{d}$$
+$$x=\frac{a}{b} ~ ~ ~ ~ y=\frac{c}{d}$$
 
-where $a,c \in \mathbb{Z}$ and $b,d\in \mathbb{N}$. It is given that both $\mathbb{Z}$ and $\mathbb{N}$ are closed under addition and multiplication.  It follows that:
+where  $a,~c \in \mathbb{Z}$  and  $b,d\in \mathbb{N}$ . It is given that both  $\mathbb{Z}$  and  $\mathbb{N}$  are closed under addition and multiplication.  It follows that:
 
 $$x+y=\frac{a}{b} + \frac{c}{d}$$
 
@@ -22,7 +22,7 @@ and with some algebra
 
 $$\frac{ad+cb}{bd}$$
 
-It follows that $ad,cb, ~\text{and}~ad+cb \in \mathbb{Z}$ and $bd \in \mathbb{N}$ and therefore $\frac{ad+cb}{bd} \in \mathbb{Q}$, by the definition of rational numbers. 
+It follows that  $ad,cb, ~\text{and}~ad+cb \in \mathbb{Z}$  and  $bd \in \mathbb{N}$  and therefore  $\frac{ad+cb}{bd} \in \mathbb{Q}$ , by the definition of rational numbers. 
 
 The addition of rational numbers creates a rational number, so $\mathbb{Q}$ is closed under addition.
 
