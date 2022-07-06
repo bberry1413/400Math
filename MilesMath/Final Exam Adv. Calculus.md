@@ -14,7 +14,7 @@ A1 closure) Let $x,y\in\mathbb{Q}$. By definition of the set of rational numbers
 
 $$x=\frac{a}{b} ~ ~ ~ ~ y=\frac{c}{d}$$
 
-where  $a,~c \in \mathbb{Z}~ ~ \text{and}~ ~ b,d\in \mathbb{N}$ . It is given that both  $\mathbb{Z}~ ~ \text{and}~ ~ \mathbb{N}$  are closed under addition and multiplication.  It follows that:
+where  $a,~c \in \mathbb{Z} ~ ~ \text{and} ~ ~ b,d\in \mathbb{N}$. It is given that both  $\mathbb{Z}~ ~ \text{and}~ ~ \mathbb{N}$  are closed under addition and multiplication.  It follows that:
 
 $$x+y=\frac{a}{b} + \frac{c}{d}$$
 
