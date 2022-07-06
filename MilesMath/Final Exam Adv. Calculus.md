@@ -321,21 +321,14 @@ $\blacksquare$
 __Which statements are true?__
 1) If $\{s_{n}\}$ and $\{t_{n}\}$ are both divergent then so is $\{s_{n}+t_{n}\}$. __FALSE__
 
-Let $\{s_{n}\}=n$ and $\{t_{n}\}=-n$, then the sum $\{s_{n}+t_{n}\}=0$
-
-2) If $\{s_{n}\}$ and $\{t_{n}\}$ are both divergent then so is $\{s_{n}t_{n}\}$. __TRUE__
-
-Let 
+2) If $\{s_{n}\}$ and $\{t_{n}\}$ are both divergent then so is $\{s_{n}t_{n}\}$. __FALSE__
 
 3) If $\{s_{n}\}$ and $\{s_{n}+t_{n}\}$ are both convergent then so is $\{t_{n}\}$. __TRUE__
 
-4) If $\{s_{n}\}$ and $\{s_{n}t_{n}\}$ are both convergent then so is $\{t_{n}\}$. 
+4) If $\{s_{n}\}$ and $\{s_{n}t_{n}\}$ are both convergent then so is $\{t_{n}\}$. __FALSE__
 
-
-5) If $\{s_{n}\}$ convergent then so too is $\bigg\{\dfrac{1}{s_{n}}\bigg\}$. True
-
+5) If $\{s_{n}\}$ convergent then so too is $\bigg\{\dfrac{1}{s_{n}}\bigg\}$. __FALSE__
 
 6) If $\{s_{n}\}$ convergent then so too is $\{(s_{n})^2\}$.  __TRUE__
 
-
-7) If $\{(s_{n})^2\}$convergent then so too is  $\{s_{n}\}$. False
+7) If $\{(s_{n})^2\}$convergent then so too is  $\{s_{n}\}$. __TRUE__

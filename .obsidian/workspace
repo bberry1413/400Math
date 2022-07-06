@@ -9,7 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Reasoning About Subsets 1.md",
+            "file": "MilesMath/Final Exam Adv. Calculus.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "d6fbecc01d639bff",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Sequences Insights.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 423.0036334991455
+    "width": 227.5036334991455
   },
   "right": {
     "id": "c9c3a65e743821ef",
@@ -69,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reasoning About Subsets 1.md",
+                "file": "MilesMath/Final Exam Adv. Calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +113,15 @@
   },
   "active": "3c76c2c440374082",
   "lastOpenFiles": [
-    "Reasoning About Subsets 1.md",
+    "MilesMath/Final Exam Adv. Calculus.md",
     "Sequences Insights.md",
+    "Reasoning About Subsets 1.md",
     "Set Notation.md",
     "Statement.md",
     "Systems of Equations.md",
     "Tutoring At Miles College.md",
     "Workflow for Virtual Tutoring.md",
     "Cramer's Rule.md",
-    "Latex Tools.md",
-    "Linear Algebra Study Questions.md"
+    "Latex Tools.md"
   ]
 }
